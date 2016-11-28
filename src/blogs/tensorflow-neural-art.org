@@ -21,6 +21,8 @@ If you know that the kernel source packages are installed and set up correctly, 
 
 在网上搜索了一下找到了这篇 [[https://devtalk.nvidia.com/default/topic/547588/error-installing-nvidia-drivers-on-x86_64-amazon-ec2-gpu-cluster-t20-gpu-/][文章]], 看了一些几位同学给出的办法，觉得可能这个命令 *sudo apt-get install -y linux-image-extra-$(uname -r)* 能解决问题。直觉是正确的:). 解决了CUDA的问题之后，[[https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html][tf]] 很快就能够使用了。
 
+-----
+
 后来我们尝试做一个类似Prisma的小App，所以用这个fast-style-transfer训练了好几张style图。有几点体会：
 - train data大约提供了8w张图片，但是实际上使用6w张跑一轮下来就能得到比较好的效果了。
 - 存储模型的时候，如果已经知道graph定义的话，那么没有必要保存meta文件（模型参数文件大小15MB，而meta就有190MB）
@@ -62,3 +64,12 @@ def adjust_image(input_path, output_path, limit = 640):
     im.save(output_path)
     im.close()
 #+END_SRC
+
+-----
+几张我们处理的照片对比
+
+file:../images/tf-neural-art-getturban0.jpg file:../images/tf-neural-art-getturban.jpg
+
+file:../images/tf-neural-art-the-scream0.jpg file:../images/tf-neural-art-the-scream.jpg
+
+file:../images/tf-neural-art-udnie0.jpg file:../images/tf-neural-art-udnie.jpg
