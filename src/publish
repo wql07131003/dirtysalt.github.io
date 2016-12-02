@@ -23,8 +23,6 @@ fi
 ./pp-html
 cp .nojekyll CNAME sitemap.txt sitemap.xml ../
 
-cd ..
-git add *
+git add ../
 git commit -a -m 'x'
 git push origin master
-cd - 
