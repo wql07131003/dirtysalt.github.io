@@ -9,9 +9,7 @@ then
     emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 fi
 
-# git checkout gitcafe-pages
-# git pull gitcafe gitcafe-pages
-# git pull origin master
+git pull origin master
 
 # generate html files.
 $emacs --batch --script publish.el
@@ -25,8 +23,8 @@ fi
 ./pp-html
 cp .nojekyll CNAME sitemap.txt sitemap.xml ../
 
-# git add *
-# git commit -a -m 'x'
-
-# # git push gitcafe gitcafe-pages
-# git push origin master
+cd ..
+git add *
+git commit -a -m 'x'
+git push origin master
+cd - 
