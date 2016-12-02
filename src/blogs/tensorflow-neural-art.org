@@ -2,6 +2,12 @@
 
 之前用 [[file:./mxnet-neural-art.org][mxnet]] 试过生成neural art, 处理一副图片大约需要2min(在g2.2xlarge实例上). 今天看到这么一个项目 [[https://github.com/dirtysalt/fast-style-transfer][fast-style-transfer]] README里面写只需要100ms就能处理好一副图片 (当然训练style图片需要很长时间，"Training takes 4-6 hours on a Maxwell Titan X.", 不过训练这个style图片是离线的，所以处理时间长也没有问题). 这个项目是用tensorflow写的，所以顺便也学习一下tf的安装。
 
+和neural art相关项目还有这些：
+- https://github.com/jcjohnson/fast-neural-style
+- https://github.com/alexjc/neural-enhance
+- https://github.com/Tetrachrome/subpixel
+- https://github.com/ajbrock/Neural-Photo-Editor
+
 有了上次安装CUDA的经验之后（比如用runfile安装，一定要关闭Nouveau, 并且要安装好linux kernel headers)，这次安装CUDA就顺利一些，不过还是遇到了一个大坑（还遇到了一个小坑是没有安装make, 不过很快就从log里面找到了问题根源）。安装时候出现如下错误：
 #+BEGIN_QUOTE
 The driver installation is unable to locate the kernel source. Please make sure that the kernel source packages are installed and set up correctly.
