@@ -381,6 +381,7 @@ http://dirtysalt.github.io/blogs/drive-learning.html
 http://dirtysalt.github.io/blogs/employee-equity.html
 http://dirtysalt.github.io/blogs/equipped-with-ssd.html
 http://dirtysalt.github.io/blogs/experience-of-running-coffee-shop-for-40-years.html
+http://dirtysalt.github.io/blogs/face-landmark-detection-dlib.html
 http://dirtysalt.github.io/blogs/finding-great-developers.html
 http://dirtysalt.github.io/blogs/from-zero-to-one.html
 http://dirtysalt.github.io/blogs/get-marriage-identity.html
