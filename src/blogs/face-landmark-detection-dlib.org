@@ -37,7 +37,13 @@ def xy_off(xy, off = 10):
     (x, y) = xy
     return (x + off, y + off)
 
-def mark_circle(xys,src, dst, radius = 10):
+def write_points(src, dst, ps):
+    im = Image.open(src)
+    draw = ImageDraw.Draw(im)
+    draw.line(ps, fill = 'white')
+    im.save(dst)
+
+def write_circle(xys,src, dst, radius = 10):
     im = Image.open(src)
     draw = ImageDraw.Draw(im)
     for xy in xys:
