@@ -74,6 +74,31 @@ def write_circle(xys,src, dst, radius = 10):
     im.save(dst)
 </pre>
 </div>
+
+<hr  />
+
+<p>
+<a href="http://caohe.me/2016/06/10/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%87%AA%E5%8A%A8%E7%A3%A8%E7%9A%AE/">人脸检测与自动磨皮</a>
+</p>
+
+<p>
+code:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-Python">def skin_retouch(im, v1 = 3, v2 = 1, p = 50):
+    dx = v1 * 5
+    fc = v1 * 12.5
+    raw = np.asarray(im).astype(np.float32)
+    temp1 = cv2.bilateralFilter(raw, dx, fc, fc)
+    temp2 = temp1 - raw + 128
+    temp3 = cv2.GaussianBlur(temp2, (2 * v1 - 1, 2 * v1 - 1,), 0, 0)
+    temp4 = raw + 2 * temp3 - 255
+    dst = (raw * (100 - p) + temp4 * p) * 0.01
+    return Image.fromarray(dst.astype(np.uint8))
+</pre>
+</div>
 </div>
 <!-- DISQUS BEGIN --><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * *//* required: replace example with your forum shortname  */var disqus_shortname = 'dirlt';var disqus_identifier = 'blogs/face-landmark-detection-dlib.html';var disqus_title = 'blogs/face-landmark-detection-dlib.html';var disqus_url = 'http://dirtysalt.github.io/blogs/face-landmark-detection-dlib.html';/* * * DON'T EDIT BELOW THIS LINE * * */(function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><!-- DISQUS END --></body>
 </html>
