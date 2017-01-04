@@ -50,3 +50,22 @@ def write_circle(xys,src, dst, radius = 10):
         draw.ellipse([xy_off(xy, -radius), xy_off(xy, radius)], fill = 'white')
     im.save(dst)
 #+END_SRC
+
+-----
+
+[[http://caohe.me/2016/06/10/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%87%AA%E5%8A%A8%E7%A3%A8%E7%9A%AE/][人脸检测与自动磨皮]]
+
+code:
+
+#+BEGIN_SRC Python
+def skin_retouch(im, v1 = 3, v2 = 1, p = 50):
+    dx = v1 * 5
+    fc = v1 * 12.5
+    raw = np.asarray(im).astype(np.float32)
+    temp1 = cv2.bilateralFilter(raw, dx, fc, fc)
+    temp2 = temp1 - raw + 128
+    temp3 = cv2.GaussianBlur(temp2, (2 * v1 - 1, 2 * v1 - 1,), 0, 0)
+    temp4 = raw + 2 * temp3 - 255
+    dst = (raw * (100 - p) + temp4 * p) * 0.01
+    return Image.fromarray(dst.astype(np.uint8))
+#+END_SRC
