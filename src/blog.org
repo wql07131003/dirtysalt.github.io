@@ -1,21 +1,21 @@
 #+title: blog
 
 ** 2016
-- 201712 [[file:blogs/face-landmark-detection-dlib.org][dlib's face landmark detection]] 
-- 201712 [[file:blogs/tensorflow-neural-art.org][Tensorflow Neural Art]]
-- 201710 [[file:blogs/the-times-they-are-changing.org][The Times They Are A-Changin']] by Bob Dylan
-- 201710 [[file:blogs/level-up-lang-taste.org][讲一件提升语言格调的小事]]
-- 201710 [[file:./blogs/the-effective-engineer-by-edmond-lau.org][The Effective Engineer]]
-- 201710 [[file:./blogs/taking-php-seriously.org][Taking PHP Seriously]]
-- 201710 [[file:./blogs/becoming-cto.org][Becoming CTO]]
-- 201710 [[file:./blogs/purchase-on-rapidssl.org][在RapidSSL上购买SSL证书]]
-- 201710 [[file:./blogs/vinod-khosla-talk.org][Vinod Khosla: Failure does not matter. Success matters.]]
-- 201710 [[file:./blogs/silicon-valley-etiquette.org][Silicon Valley Etiquette]] 硅谷礼仪
-- 201710 [[file:./blogs/chengdu-travel.org][天府之旅]]
-- 201709 [[file:./blogs/mxnet-neural-art.org][MXNet Neural Art]]
-- 201709 [[file:./blogs/a-little-architecture.org][A Little Architecture]]
-- 201709 [[file:./blogs/laws-of-performant-software.org][Laws of Performant Software]]
-- 201709 [[file:./blogs/build-hls-server.org][搭建直播平台]]
+- 201612 [[file:blogs/face-landmark-detection-dlib.org][dlib's face landmark detection]] 
+- 201612 [[file:blogs/tensorflow-neural-art.org][Tensorflow Neural Art]]
+- 201610 [[file:blogs/the-times-they-are-changing.org][The Times They Are A-Changin']] by Bob Dylan
+- 201610 [[file:blogs/level-up-lang-taste.org][讲一件提升语言格调的小事]]
+- 201610 [[file:./blogs/the-effective-engineer-by-edmond-lau.org][The Effective Engineer]]
+- 201610 [[file:./blogs/taking-php-seriously.org][Taking PHP Seriously]]
+- 201610 [[file:./blogs/becoming-cto.org][Becoming CTO]]
+- 201610 [[file:./blogs/purchase-on-rapidssl.org][在RapidSSL上购买SSL证书]]
+- 201610 [[file:./blogs/vinod-khosla-talk.org][Vinod Khosla: Failure does not matter. Success matters.]]
+- 201610 [[file:./blogs/silicon-valley-etiquette.org][Silicon Valley Etiquette]] 硅谷礼仪
+- 201610 [[file:./blogs/chengdu-travel.org][天府之旅]]
+- 201609 [[file:./blogs/mxnet-neural-art.org][MXNet Neural Art]]
+- 201609 [[file:./blogs/a-little-architecture.org][A Little Architecture]]
+- 201609 [[file:./blogs/laws-of-performant-software.org][Laws of Performant Software]]
+- 201609 [[file:./blogs/build-hls-server.org][搭建直播平台]]
 - 201609 [[file:./blogs/stackoverflow-maintenance.org][StackOverflow Maintenance]]
 - 201609 [[file:./blogs/yy-live-on-child-0.org][@杨樾杨樾 老师的育儿直播]]
 - 201608 [[file:./blogs/some-non-casual-thoughts.org][一些想法（关于工作，人生，以及最近做的梦)]]
@@ -203,7 +203,6 @@
 - 201208 [[file:./blogs/purchase-mba.org][购买MacBookAir]]
 - 201208 [[file:./blogs/2012-birthday.org][记在2012年生日]]
 - 201207 [[file:./blogs/visit-tj-data-center.org][参观天津机房]]
-- 201206 [[file:./blogs/purchase-car.org][购买汽车]]
 - 201205 [[file:./blogs/looking-for-house-with-xcq.org][和xcq看房子]]
 - 201204 [[file:./blogs/code-for-run.org][为运行而生的代码]]
 - 201204 [[file:./blogs/talk-with-luoyan.org][和luoyan的谈话]]
@@ -222,5 +221,5 @@
 
 ** misc
 - [[file:./images/cjy-baidu-blog-archive.html][百度空间存档]] - [[file:./blogs/to-death.org][写给离去的亲人]] - [[file:./blogs/cola-and-water.org][可乐和矿泉水]]
-- [[file:fun.org][fun]] - [[file:./clip.org][clip]] - [[file:./blogs/house.org][house]] - [[file:./blogs/pregnancy.org][baby]] - [[file:./blogs/ascii.org][ascii]] - [[file:./blogs/idiom.org][idiom]] - [[file:./blogs/cross-ocean.org][cross-ocean]]
+- [[file:fun.org][fun]] - [[file:./clip.org][clip]] - [[file:./blogs/house.org][house]] - [[file:blogs/car.org][car]] - [[file:./blogs/pregnancy.org][baby]] - [[file:./blogs/ascii.org][ascii]] - [[file:./blogs/idiom.org][idiom]] - [[file:./blogs/cross-ocean.org][cross-ocean]]
 - [[file:./blogs/retrospect-2009.org][回顾2009]] - [[file:./blogs/retrospect-2010.org][回顾2010]] - [[file:./blogs/retrospect-2011.org][回顾2011]] - [[file:./blogs/retrospect-2012.org][回顾2012]] - [[file:./blogs/retrospect-2013.org][回顾2013]] - [[file:./blogs/retrospect-2014.org][回顾2014]]

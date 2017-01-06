@@ -289,6 +289,7 @@
 ** Software Design
 
 *articles*
+
 - [[file:t11-on-backpressure.org][T11谈文艺模型(On Backpressure)]]
 - [[file:t11-on-architecture.org][T11谈架构]]
 - [[file:./suffering-oriented-programming.org][Suffering-oriented programming]]
@@ -330,12 +331,14 @@
 - [[file:./mean-people-fail.org][Mean People Fail]] by Paul Graham.
 
 *[[file:./blog.org][blogs]]*
-- 201710 [[file:./blogs/taking-php-seriously.org][Taking PHP Seriously]]
-- 201710 [[file:./blogs/becoming-cto.org][Becoming CTO]]
-- 201710 [[file:./blogs/vinod-khosla-talk.org][Vinod Khosla: Failure does not matter. Success matters.]]
-- 201710 [[file:./blogs/silicon-valley-etiquette.org][Silicon Valley Etiquette]] 硅谷礼仪
-- 201709 [[file:./blogs/a-little-architecture.org][A Little Architecture]]
-- 201709 [[file:./blogs/laws-of-performant-software.org][Laws of Performant Software]]
+
+- 201610 [[file:./blogs/the-effective-engineer-by-edmond-lau.org][The Effective Engineer]]
+- 201610 [[file:./blogs/taking-php-seriously.org][Taking PHP Seriously]]
+- 201610 [[file:./blogs/becoming-cto.org][Becoming CTO]]
+- 201610 [[file:./blogs/vinod-khosla-talk.org][Vinod Khosla: Failure does not matter. Success matters.]]
+- 201610 [[file:./blogs/silicon-valley-etiquette.org][Silicon Valley Etiquette]] 硅谷礼仪
+- 201609 [[file:./blogs/a-little-architecture.org][A Little Architecture]]
+- 201609 [[file:./blogs/laws-of-performant-software.org][Laws of Performant Software]]
 - 201608 [[file:./blogs/the-future-of-programming.org][The Future of Programming]] by Bret Victor
 - 201608 [[file:./blogs/what-makes-a-great-software-engineer.org][What Makes A Great Software Engineer?]]
 - 201606 [[file:./blogs/top-10-things-that-makes-you-a-good-programmer.org][Top 10 Things that Makes You a Good Programmer]]
