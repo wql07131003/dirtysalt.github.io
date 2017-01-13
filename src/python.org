@@ -1,6 +1,7 @@
 #+title: Python
 - [[http://learnpythonthehardway.org/][Learn Python The Hard Way]] ([[file:images/learn-py-the-hard-way/index.html][中文]])
 - [[http://itlab.idcquan.com/linux/manual/python_chinese/][A Byte of Python]]
+- [[http://pythonguidecn.readthedocs.io/zh/latest/index.html][Python最佳实践指南]]
 
 ** language
 *** philosophy
@@ -254,6 +255,15 @@ hello, world
 wrapper
 wrapper
 #+END_EXAMPLE
+
+*** 模块加载
+一些关于模块加载和模块检索路径方面的文章
+
+- https://docs.python.org/3/reference/import.html
+- https://leemendelowitz.github.io/blog/how-does-python-find-packages.html  site.py这个脚本会修改sys.path来解决内置python的问题
+- https://www.codementor.io/sheena/tutorials/python-path-virtualenv-import-for-beginners-du107r3o1
+- http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html
+- http://softwareengineering.stackexchange.com/questions/187403/import-module-vs-from-module-import-function/187471
 
 ** library
 *** native WSGI
@@ -533,5 +543,6 @@ UPDATE @ 2016-08-26: 发现这个方法可以用来解决remote ipython notebook
 之后就可以在本地使用 `http://localhost:10000` 来访问远端的notebook了.
 
 ** inside
+
 - [[http://pgbovine.net/cpython-internals.htm][Philip Guo - CPython internals: A ten-hour codewalk through the Python interpreter source code]]
 - [[https://www.youtube.com/watch?v=HVUTjQzESeo][Allison Kaptur - Bytes in the Machine: Inside the CPython interpreter - PyCon 2015 - YouTube]]
