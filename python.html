@@ -18,7 +18,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline10">1. language</a>
+<li><a href="#orgheadline11">1. language</a>
 <ul>
 <li><a href="#orgheadline1">1.1. philosophy</a></li>
 <li><a href="#orgheadline2">1.2. 基础知识</a></li>
@@ -29,32 +29,34 @@
 <li><a href="#orgheadline7">1.7. 可变参数和字典参数</a></li>
 <li><a href="#orgheadline8">1.8. generator(生成器)</a></li>
 <li><a href="#orgheadline9">1.9. decorator(装饰器)</a></li>
+<li><a href="#orgheadline10">1.10. 模块加载</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline20">2. library</a>
+<li><a href="#orgheadline21">2. library</a>
 <ul>
-<li><a href="#orgheadline11">2.1. native WSGI</a></li>
-<li><a href="#orgheadline12">2.2. nginx WSGI</a></li>
-<li><a href="#orgheadline13">2.3. xlrd</a></li>
-<li><a href="#orgheadline14">2.4. httplib</a></li>
-<li><a href="#orgheadline15">2.5. datetime</a></li>
-<li><a href="#orgheadline16">2.6. pip(python package index)</a></li>
-<li><a href="#orgheadline17">2.7. logging</a></li>
-<li><a href="#orgheadline18">2.8. virtualenv</a></li>
-<li><a href="#orgheadline19">2.9. ipython</a></li>
+<li><a href="#orgheadline12">2.1. native WSGI</a></li>
+<li><a href="#orgheadline13">2.2. nginx WSGI</a></li>
+<li><a href="#orgheadline14">2.3. xlrd</a></li>
+<li><a href="#orgheadline15">2.4. httplib</a></li>
+<li><a href="#orgheadline16">2.5. datetime</a></li>
+<li><a href="#orgheadline17">2.6. pip(python package index)</a></li>
+<li><a href="#orgheadline18">2.7. logging</a></li>
+<li><a href="#orgheadline19">2.8. virtualenv</a></li>
+<li><a href="#orgheadline20">2.9. ipython</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline21">3. inside</a></li>
+<li><a href="#orgheadline22">3. inside</a></li>
 </ul>
 </div>
 </div>
 <ul class="org-ul">
 <li><a href="http://learnpythonthehardway.org/">Learn Python The Hard Way</a> (<a href="images/learn-py-the-hard-way/index.html">中文</a>)</li>
 <li><a href="http://itlab.idcquan.com/linux/manual/python_chinese/">A Byte of Python</a></li>
+<li><a href="http://pythonguidecn.readthedocs.io/zh/latest/index.html">Python最佳实践指南</a></li>
 </ul>
 
-<div id="outline-container-orgheadline10" class="outline-2">
-<h2 id="orgheadline10"><span class="section-number-2">1</span> language</h2>
+<div id="outline-container-orgheadline11" class="outline-2">
+<h2 id="orgheadline11"><span class="section-number-2">1</span> language</h2>
 <div class="outline-text-2" id="text-1">
 </div><div id="outline-container-orgheadline1" class="outline-3">
 <h3 id="orgheadline1"><span class="section-number-3">1.1</span> philosophy</h3>
@@ -401,13 +403,30 @@ wrapper
 </pre>
 </div>
 </div>
+
+<div id="outline-container-orgheadline10" class="outline-3">
+<h3 id="orgheadline10"><span class="section-number-3">1.10</span> 模块加载</h3>
+<div class="outline-text-3" id="text-1-10">
+<p>
+一些关于模块加载和模块检索路径方面的文章
+</p>
+
+<ul class="org-ul">
+<li><a href="https://docs.python.org/3/reference/import.html">https://docs.python.org/3/reference/import.html</a></li>
+<li><a href="https://leemendelowitz.github.io/blog/how-does-python-find-packages.html">https://leemendelowitz.github.io/blog/how-does-python-find-packages.html</a>  site.py这个脚本会修改sys.path来解决内置python的问题</li>
+<li><a href="https://www.codementor.io/sheena/tutorials/python-path-virtualenv-import-for-beginners-du107r3o1">https://www.codementor.io/sheena/tutorials/python-path-virtualenv-import-for-beginners-du107r3o1</a></li>
+<li><a href="http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html">http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html</a></li>
+<li><a href="http://softwareengineering.stackexchange.com/questions/187403/import-module-vs-from-module-import-function/187471">http://softwareengineering.stackexchange.com/questions/187403/import-module-vs-from-module-import-function/187471</a></li>
+</ul>
+</div>
+</div>
 </div>
 
-<div id="outline-container-orgheadline20" class="outline-2">
-<h2 id="orgheadline20"><span class="section-number-2">2</span> library</h2>
+<div id="outline-container-orgheadline21" class="outline-2">
+<h2 id="orgheadline21"><span class="section-number-2">2</span> library</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-orgheadline11" class="outline-3">
-<h3 id="orgheadline11"><span class="section-number-3">2.1</span> native WSGI</h3>
+</div><div id="outline-container-orgheadline12" class="outline-3">
+<h3 id="orgheadline12"><span class="section-number-3">2.1</span> native WSGI</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 WSGI(web server gateway interface)定义了一个web server的标准编程接口。开发着只需要按照这个接口来实现应用，然后将模块运行在标准化的container上，就实现了一个web server.
@@ -491,8 +510,8 @@ WSGI(web server gateway interface)定义了一个web server的标准编程接口
 </div>
 </div>
 
-<div id="outline-container-orgheadline12" class="outline-3">
-<h3 id="orgheadline12"><span class="section-number-3">2.2</span> nginx WSGI</h3>
+<div id="outline-container-orgheadline13" class="outline-3">
+<h3 id="orgheadline13"><span class="section-number-3">2.2</span> nginx WSGI</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 python运行web大约有下面三种方式：
@@ -552,8 +571,8 @@ max-requests = 128
 </div>
 </div>
 
-<div id="outline-container-orgheadline13" class="outline-3">
-<h3 id="orgheadline13"><span class="section-number-3">2.3</span> xlrd</h3>
+<div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><span class="section-number-3">2.3</span> xlrd</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 分析excel文件在实际生活中还是比较常见的，通常我们的问题就是卡在读取上面（主要原因是因为我对COM接口不太熟悉，不太了解windows编程）。使用xlrd可以通过python来访问excel文件。
@@ -636,8 +655,8 @@ for i in range(0,book.nsheets):
 </div>
 </div>
 
-<div id="outline-container-orgheadline14" class="outline-3">
-<h3 id="orgheadline14"><span class="section-number-3">2.4</span> httplib</h3>
+<div id="outline-container-orgheadline15" class="outline-3">
+<h3 id="orgheadline15"><span class="section-number-3">2.4</span> httplib</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 关于httplib.HTTPConnection超时问题
@@ -651,8 +670,8 @@ for i in range(0,book.nsheets):
 </div>
 </div>
 
-<div id="outline-container-orgheadline15" class="outline-3">
-<h3 id="orgheadline15"><span class="section-number-3">2.5</span> datetime</h3>
+<div id="outline-container-orgheadline16" class="outline-3">
+<h3 id="orgheadline16"><span class="section-number-3">2.5</span> datetime</h3>
 <div class="outline-text-3" id="text-2-5">
 <p>
 日期时间和时间戳之间的转化
@@ -711,8 +730,8 @@ In [13]: timeit time.strftime('%Y-%m-%d %H:%M:%S', st)
 </div>
 </div>
 
-<div id="outline-container-orgheadline16" class="outline-3">
-<h3 id="orgheadline16"><span class="section-number-3">2.6</span> pip(python package index)</h3>
+<div id="outline-container-orgheadline17" class="outline-3">
+<h3 id="orgheadline17"><span class="section-number-3">2.6</span> pip(python package index)</h3>
 <div class="outline-text-3" id="text-2-6">
 <p>
 python模块管理工具
@@ -735,8 +754,8 @@ python模块管理工具
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline17" class="outline-3">
-<h3 id="orgheadline17"><span class="section-number-3">2.7</span> logging</h3>
+<div id="outline-container-orgheadline18" class="outline-3">
+<h3 id="orgheadline18"><span class="section-number-3">2.7</span> logging</h3>
 <div class="outline-text-3" id="text-2-7">
 <p>
 python logging主要有下面几个类
@@ -793,8 +812,8 @@ class=logging.Formatter
 </div>
 </div>
 
-<div id="outline-container-orgheadline18" class="outline-3">
-<h3 id="orgheadline18"><span class="section-number-3">2.8</span> virtualenv</h3>
+<div id="outline-container-orgheadline19" class="outline-3">
+<h3 id="orgheadline19"><span class="section-number-3">2.8</span> virtualenv</h3>
 <div class="outline-text-3" id="text-2-8">
 <p>
 <a href="https://virtualenv.pypa.io/en/latest/index.html">https://virtualenv.pypa.io/en/latest/index.html</a>
@@ -812,8 +831,8 @@ class=logging.Formatter
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline19" class="outline-3">
-<h3 id="orgheadline19"><span class="section-number-3">2.9</span> ipython</h3>
+<div id="outline-container-orgheadline20" class="outline-3">
+<h3 id="orgheadline20"><span class="section-number-3">2.9</span> ipython</h3>
 <div class="outline-text-3" id="text-2-9">
 <p>
 `%store output_variable &gt; output.txt` 把变量内容输出到文件
@@ -833,8 +852,8 @@ UPDATE @ 2016-08-26: 发现这个方法可以用来解决remote ipython notebook
 </div>
 </div>
 
-<div id="outline-container-orgheadline21" class="outline-2">
-<h2 id="orgheadline21"><span class="section-number-2">3</span> inside</h2>
+<div id="outline-container-orgheadline22" class="outline-2">
+<h2 id="orgheadline22"><span class="section-number-2">3</span> inside</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li><a href="http://pgbovine.net/cpython-internals.htm">Philip Guo - CPython internals: A ten-hour codewalk through the Python interpreter source code</a></li>
