@@ -413,6 +413,7 @@
 - [[file:./blogs/pragmatic-thinking-and-learning.org][程序员的思维修炼(Pragmatic Thinking and Learning - Refactor Your Wetware)]]
 - [[file:./blogs/getting-real.org][Getting Real]] by 37 Signals
 - [[file:./blogs/nine-algos-that-changed-the-future.org][改变未来的九大算法(Nine Algorithms that Changed the Future)]] by John. McCormick
+- [[file:bob-dylan-bio-like-a-rolling-stone.org][编年史(Like A Rolling Stone)]]
 
 ** Misc Books
 - [[file:./links.org][Great links]]
