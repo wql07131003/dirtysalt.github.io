@@ -413,7 +413,6 @@
 - [[file:./blogs/pragmatic-thinking-and-learning.org][程序员的思维修炼(Pragmatic Thinking and Learning - Refactor Your Wetware)]]
 - [[file:./blogs/getting-real.org][Getting Real]] by 37 Signals
 - [[file:./blogs/nine-algos-that-changed-the-future.org][改变未来的九大算法(Nine Algorithms that Changed the Future)]] by John. McCormick
-- [[file:bob-dylan-bio-like-a-rolling-stone.org][编年史(Like A Rolling Stone)]]
 
 ** Misc Books
 - [[file:./links.org][Great links]]
@@ -504,3 +503,4 @@
 - [[file:./blogs/zhihu-hft-engineer.org][我是高频交易工程师：知乎董可人自选集]]
 - [[file:./the-times-of-intelligence.org][智能时代]] by wujun
 - [[file:the-hard-thing-about-hard-things.org][创业维艰：如何完成比难更难的事]] by Ben Horowitz
+- [[file:bob-dylan-bio-like-a-rolling-stone.org][编年史(Like A Rolling Stone)]] of Bob Dylan
