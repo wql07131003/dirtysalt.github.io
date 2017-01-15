@@ -483,7 +483,7 @@
 - [[file:./blogs/platform-strategy.org][平台战略: 正在席卷全球的商业模式革命]] by 陈威如, 余卓轩
 - [[file:./blogs/nine-algos-that-changed-the-future.org][改变未来的九大算法(Nine Algorithms that Changed the Future)]] by John. McCormick
 - [[file:./blogs/the-men-who-built-america.org][谁建造了美国(The men who built America)]] by 网易公开课
-- [[file:./blogs/that-man-looks-like-a-dog.org][(ZZ)那个人好像一条狗]] 周星驰 <大圣娶亲>
+- [[file:blogs/that-man-looks-like-a-dog.org][那个人好像一条狗]] 周星驰 <大圣娶亲>
 - [[file:./blogs/three-body.org][三体(Three Body)]] by 刘慈欣
 - [[file:./blogs/growth-hacker.org][增长黑客(Growth Hacker)]] by 范冰
 - [[file:./blogs/lean-in.org][向前一步(Lean In)]] by Sheryl Sandberg
