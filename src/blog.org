@@ -2,6 +2,7 @@
 
 ** 2017
 - 201701 [[file:./blogs/is-there-a-simple-algorithm-for-intelligence.org][Is there a simple algorithm for intelligence?]] By Michael Nielsen
+- 201701 [[file:./blogs/on-the-future-of-neural-networks.org][On the future of neural networks]] By Michael Nielsen
 - 201701 [[file:./blogs/on-stories-in-neural-networks.org][On stories in neural networks]] By Michael Nielsen
 
 ** 2016
