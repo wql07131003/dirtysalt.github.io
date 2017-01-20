@@ -55,6 +55,8 @@ def write_circle(xys,src, dst, radius = 10):
 
 [[http://caohe.me/2016/06/10/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%87%AA%E5%8A%A8%E7%A3%A8%E7%9A%AE/][人脸检测与自动磨皮]]
 
+[[https://toutiao.io/posts/03s8wf/preview][基于 GPUImage 的实时美颜滤镜原理解析]]
+
 code:
 
 #+BEGIN_SRC Python
