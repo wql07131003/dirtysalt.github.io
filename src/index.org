@@ -504,3 +504,5 @@
 - [[file:./the-times-of-intelligence.org][智能时代]] by wujun
 - [[file:the-hard-thing-about-hard-things.org][创业维艰：如何完成比难更难的事]] by Ben Horowitz
 - [[file:bob-dylan-bio-like-a-rolling-stone.org][编年史(Like A Rolling Stone)]] of Bob Dylan
+- 201701 [[file:./blogs/boots-of-spanish-leather.org][Boots of Spanish Leather]] by Bob Dylan
+- 201610 [[file:blogs/the-times-they-are-changing.org][The Times They Are A-Changin']] by Bob Dylan
