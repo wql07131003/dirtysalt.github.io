@@ -347,6 +347,7 @@ http://dirtysalt.github.io/blogs/experience-of-running-coffee-shop-for-40-years.
 http://dirtysalt.github.io/blogs/squid-https-forwarding-proxy.html
 http://dirtysalt.github.io/blogs/pieces-of-advice-from-yq.html
 http://dirtysalt.github.io/blogs/ms-interview.html
+http://dirtysalt.github.io/blogs/abandoned-probabilistic-option.html
 http://dirtysalt.github.io/blogs/why-cd-just-keeps-on-giving.html
 http://dirtysalt.github.io/blogs/big-data.html
 http://dirtysalt.github.io/blogs/hackers-and-painters.html
@@ -505,6 +506,7 @@ http://dirtysalt.github.io/blogs/surviving-meetings-while-remote.html
 http://dirtysalt.github.io/blogs/sth-about-chords.html
 http://dirtysalt.github.io/blogs/dreaming-in-code.html
 http://dirtysalt.github.io/blogs/inside-job.html
+http://dirtysalt.github.io/blogs/my-thoughts-on-startup.html
 http://dirtysalt.github.io/blogs/purchase-on-rapidssl.html
 http://dirtysalt.github.io/blogs/retrospect-2014.html
 http://dirtysalt.github.io/blogs/taking-php-seriously.html
