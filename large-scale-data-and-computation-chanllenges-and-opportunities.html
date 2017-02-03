@@ -23,6 +23,7 @@
 <li><a href="#orgheadline3">3. Tolerating Faults vs.Tolerating Variability</a></li>
 <li><a href="#orgheadline4">4. Latency Tolerating Techniques</a></li>
 <li><a href="#orgheadline5">5. Cluster-Level Services</a></li>
+<li><a href="#orgheadline6">6. Higher Level Systems</a></li>
 </ul>
 </div>
 </div>
@@ -171,6 +172,33 @@ Solve many problems, but leave many cross-cluster issues to human-level operator
 <p>
 Spanner:Worldwide Storage
 </p>
+</div>
+</div>
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6"><span class="section-number-2">6</span> Higher Level Systems</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+有了这些"just works"的抽象组件(GFS, MapReduce, BigTable, Spanner, tied requests, etc.)后，我们就能开搞更加牛X的东西比如深度学习。
+</p>
+
+<p>
+Parameter Server用于实现异步分布式随机梯度下降.
+</p>
+
+
+<div class="figure">
+<p><img src="./images/google-parameter-server-for-adsdg.png" alt="google-parameter-server-for-adsdg.png" />
+</p>
+</div>
+
+<p>
+实现这种深度学习系统里面也有许多有意思的tradeoff
+</p>
+<ul class="org-ul">
+<li>Use lower precision arithmetic</li>
+<li>Send 1 or 2 bits instead of 32 bits across network</li>
+<li>Drop results from slow partitions</li>
+</ul>
 </div>
 </div>
 </div>
