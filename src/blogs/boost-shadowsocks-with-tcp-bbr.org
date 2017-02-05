@@ -9,6 +9,19 @@
 
 安装 [[https://github.com/iMeiji/shadowsocks_install/wiki/%E5%BC%80%E5%90%AFTCP-BBR%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95][wiki]] 里面给出的步骤，很快把阿里云上的vps切换到了linux-4.9.7版本。但是同样的步骤，在linode的节点不工作，每次重启之后 =uname -r= 还是之前的内核版本。原来linode可以直接在dashboard里面修改vps的linux kernel version而不用自己去安装，修改之后重启就能生效，实在太方便了。
 
+#+BEGIN_QUOTE
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+
+sysctl -p
+
+sysctl net.ipv4.tcp_available_congestion_control
+
+sysctl net.ipv4.tcp_congestion_control
+#+END_QUOTE
+
+
 下面是对比的结果，升级之前大约下载速度是5KB/s
 
 file:../images/shadowsocks-without-tcp-bbr.png
