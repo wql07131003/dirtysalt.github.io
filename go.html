@@ -62,12 +62,12 @@ by 许式伟，吕桂华
 <ul class="org-ul">
 <li>有限的类型推导
 <ul class="org-ul">
-<li>`var k = "hello"` or `k := "hello"`</li>
+<li><code>var k = "hello"= or =k :</code> "hello"=</li>
 <li>不会对函数返回值类型进行推导</li>
 </ul></li>
-<li>不定参数 `args &#x2026;int` 可以认为是数组切片类型 `args []int`</li>
-<li>`range`用来遍历数组, 切片, 以及字典.</li>
-<li>取消`while`, 只保留`for`.
+<li>不定参数 <code>args ...int</code> 可以认为是数组切片类型 <code>args []int</code></li>
+<li>=range=用来遍历数组, 切片, 以及字典.</li>
+<li>取消=while=, 只保留=for=.
 <ul class="org-ul">
 <li>for &lt;init&gt;; &lt;loop&gt;; &lt;pred&gt; { \n &#x2026; }</li>
 <li>for &lt;loop&gt; { \n &#x2026; }</li>
@@ -107,24 +107,24 @@ by 许式伟，吕桂华
 <li>一个接口可以赋值给另外一个接口</li>
 <li>func (a A)&#x2026;自动会实现func (a *A)&#x2026;</li>
 </ul></li>
-<li>类型/接口查询. 值是否实现某个接口`v.(IReader)`或是什么类型`v.(type)`</li>
+<li>类型/接口查询. 值是否实现某个接口 <code>v.(IReader)</code> 或是什么类型 <code>v.(type)</code></li>
 </ul>
 
 <p>
 并发编程
 </p>
 <ul class="org-ul">
-<li>goroutine go协程 see `libtask`
+<li>goroutine go协程 see <code>libtask</code>
 <ul class="org-ul">
 <li>使用CPU数量 runtime.GOMAXPROCS()</li>
 <li>主动yield runtime.GoSched()</li>
 </ul></li>
 <li>并发通信
 <ul class="org-ul">
-<li>基于消息传递 channel `chan type`
+<li>基于消息传递 channel <code>chan type</code>
 <ul class="org-ul">
-<li>单向写入channel `chan&lt;- type`</li>
-<li>单向读出channel `&lt;-chan type`</li>
+<li>单向写入channel <code>chan&lt;- type</code></li>
+<li>单向读出channel <code>&lt;-chan type</code></li>
 <li>通过make(chan type [,bufsize])来创建</li>
 </ul></li>
 <li>基于内存共享 sync.* 同步机制</li>
@@ -141,9 +141,9 @@ by 许式伟，吕桂华
 </p>
 <ul class="org-ul">
 <li>目录组织. src/pkg/bin</li>
-<li>集成工具. just `go`</li>
-<li>代码风格. see `go fmt`</li>
-<li>远程import支持. see `go get`</li>
+<li>集成工具. just <code>go</code></li>
+<li>代码风格. see <code>go fmt</code></li>
+<li>远程import支持. see <code>go get</code></li>
 <li>内置单元测试和性能测试</li>
 <li>camelCase style. 只暴露首字母大写的变量.</li>
 </ul>
