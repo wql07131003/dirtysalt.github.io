@@ -3,8 +3,9 @@
 - [[http://golang.org/][The Go Programming Language]]
 - [[http://mmcgrana.github.com/2012/10/introducing-go-by-example.html][Introducing Go by Example]]
 
-** Go语言编程
-by 许式伟，吕桂华
+-----
+
+Go语言编程 by 许式伟，吕桂华
 
 顺序编程
 - 有限的类型推导
@@ -61,6 +62,3 @@ by 许式伟，吕桂华
 - 远程import支持. see =go get=
 - 内置单元测试和性能测试
 - camelCase style. 只暴露首字母大写的变量.
-
-
-
