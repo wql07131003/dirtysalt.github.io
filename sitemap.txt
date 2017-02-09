@@ -82,6 +82,8 @@ http://dirtysalt.github.io/efficiently-exploiting-multiple-cores-with-python.htm
 http://dirtysalt.github.io/elastic-search.html
 http://dirtysalt.github.io/encoding.html
 http://dirtysalt.github.io/engineering-management.html
+http://dirtysalt.github.io/erlang-prog-lang-book.html
+http://dirtysalt.github.io/erlang.html
 http://dirtysalt.github.io/f1-talk.html
 http://dirtysalt.github.io/f1.html
 http://dirtysalt.github.io/ffmpeg.html
