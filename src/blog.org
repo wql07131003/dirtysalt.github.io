@@ -1,6 +1,8 @@
 #+title: blog
 
 ** 2017
+- 201703 [[file:blogs/a-possible-impl-of-reco-sys.org][推荐系统的可能实现]]
+- 201703 [[file:./blogs/automation-on-finacial-report.org][实事求是谈金融报告自动化 – 文因互联]]
 - 201702 [[file:blogs/boost-shadowsocks-with-tcp-bbr.org][通过TCP BBR为ShadowSocks加速]]
 - 201702 [[file:./blogs/principle-of-smart-route-in-vpn.org][VPN的智能加速原理]]
 - 201702 [[file:./blogs/my-thoughts-on-startup.org][创业/小公司的优点和缺点]]
@@ -322,4 +324,3 @@
 - [[file:./the-times-of-intelligence.org][智能时代]] by wujun
 - [[file:the-hard-thing-about-hard-things.org][创业维艰：如何完成比难更难的事]] by Ben Horowitz
 - [[file:bob-dylan-bio-like-a-rolling-stone.org][编年史(Like A Rolling Stone)]] of Bob Dylan
-
