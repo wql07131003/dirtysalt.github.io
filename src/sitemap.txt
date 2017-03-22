@@ -535,6 +535,7 @@ http://dirtysalt.github.io/blogs/seediq-bale.html
 http://dirtysalt.github.io/blogs/several-waters.html
 http://dirtysalt.github.io/blogs/sfo-travel.html
 http://dirtysalt.github.io/blogs/silicon-valley-etiquette.html
+http://dirtysalt.github.io/blogs/software-engineering-at-google.html
 http://dirtysalt.github.io/blogs/some-advice-from-jeff-bezos.html
 http://dirtysalt.github.io/blogs/some-non-casual-thoughts.html
 http://dirtysalt.github.io/blogs/spam-from-apple.html
