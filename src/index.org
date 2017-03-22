@@ -344,6 +344,7 @@
 - [[file:./complexity-is-the-enemy.org][Complexity is the enemy]] 复杂是...敌人
 - [[file:./teach-yourself-programming-in-ten-years.org][Teach Yourself Programming in Ten Years]] by Peter Norvig
 - [[file:./mean-people-fail.org][Mean People Fail]] by Paul Graham.
+- [[file:./blogs/software-engineering-at-google.org][Software Engineering at Google]] by Fergus Henderson
 
 =blogs=
 
