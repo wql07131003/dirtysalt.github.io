@@ -101,4 +101,35 @@ Most software at Google gets rewritten every few years.
 - 使用更先进的技术，比如某个lib从v2升级到v3等，或者是使用全新的编程语言。
 
 ** Project management
+*** 20% time
+*** OKR
+*** Project Approval
+即便作为一个已经在G工作10多年的老员工（经理），作者现在也还是不太明白，什么时候应该批准或者不批准一个项目。作者认为大部分原因在于，和项目性质和团队有关系。
+
+有一些项目是bottom-up的方式提出来的，通常这些项目都是工程师和所在团队主动提出的，而一些项目则是top-down的，我的理解应该是一些战略性质的项目比如Chromium.
+
+*** Corporation reorganizations
+
+** People management
+*** Roles
+工程和管理是两条不同的职业发展路线。大致有下面几个角色：
+
+- Engineering Manager. 工程师经理。SWE可能会管理人，而EM就是完全管理人。EM都是从SWE过来的，有技术背景。EM的主要工作是为某个项目挑选好人并且管理好人。
+- Software Engineer(SWE). 软件工程师。G里面大部分都是这类人，SWE的职位可以做到很高，甚至比EM还高，这样可以避免大家一窝蜂地都转管理。 "At the higher levels, showing leadership is required, but that can come in many forms. For example creating great software that has a huge impact or is used by very many other engineers is sufficient."
+- Research Scientist. 研究科学家。RS的bar比SWE还要高，不仅要求学术上有深的造诣，并且要求编码能力也非常强。一些在G的PhD甚至只能作为SWE而不能作为RS. RS通常和SWE在一起工作。
+- Site Reliability Engineer(SRE). 编码水平可以比SWE要求低一下，但是在其他一些方面比如网络或者是unix系统内部有深入了解。
+- Product Manager(PM). 产品经理。在项目里面侧重从产品角度思考问题，自己不进行编码，但是和SWE在一起工作，确保他们产生的代码是自己想要的。
+- Program Manager /Technical Program Manager. 和PM有点类似，但是他们不管理产品，而是确保整个流程运行通畅。
+
+SWE vs PM的比例可以从4:1到30:1
+
+*** Facilities
+*** Training
+*** Transfers
+*** Performance appraisal and rewards
+Google has a very careful and detailed promotion process, which involves nomination by self or manager, self-review, peer reviews, manager appraisals; the actual decisions are then made by promotion committees based on that input, and the results can be subject to further review by promotion appeals committees. Ensuring that the right people get promoted is critical to maintaining the right incentives for employees.
+
+** Conclusion
+
+
 
