@@ -99,6 +99,7 @@ http://dirtysalt.github.io/generalists-and-specialists-thoughts-on-hiring.html
 http://dirtysalt.github.io/gfs.html
 http://dirtysalt.github.io/git.html
 http://dirtysalt.github.io/gizzard.html
+http://dirtysalt.github.io/go-lang-book.html
 http://dirtysalt.github.io/go.html
 http://dirtysalt.github.io/good-and-bad-reasons-to-become-an-entrepreneur.html
 http://dirtysalt.github.io/google-cluster-computing-faculty-traning-workshop.html
