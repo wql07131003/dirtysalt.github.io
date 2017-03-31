@@ -117,3 +117,17 @@ func1([{tag, {one, A} = Z1, B} = Z2 | T]) ->
 - define(Func(Var1, Var2), ...) 宏，这个和C的宏很像，不过引用的时候需要带上?Func
 - include/include_lib. 两个差别是用来区分库和自定义的头文件(.hrl文件)
 每个模块编译之后，都会带上module_info/0和module_info/1两个函数，可以获取这些属性信息。
+
+** 并发编程
+通过spawn函数来创建线程，返回一个线程句柄（通常命名为Pid），之后可以往这个线程投递消息，比如 =Pid ! hello= 。
+这个线程句柄的传递有两种方式：
+- 如果在一个erlang进程里面传递，可以直接放在消息里面；
+- 如果需要在不同进程/机器之间传递的话，可以将这个句柄和一个atom/name绑定起来 =register(serviceA, Pid)=, 然后在另外进程里面调用 =rpc:call(host, serviceA, params)= 序列化和反序列化都是自身内部提供好的。
+
+容错方面的话，可以将多个线程之间关联起来，支持单向和双向两种。一旦某个线程退出的，所有与之关联的线程都会收到通知。
+
+** 其他特性
+- 类型推断和类型检查。 用户可以提供spec来帮助erlang来检查类型错误，两个程序dialyzer和typer
+- ETS/DETS/Mnesia. ETS全称是Erlang Term Storage, DETS则是Disk ETS. Mnesia是内置的数据库(DBMS)
+- 性能分析，调试和跟踪工具。
+- 动态代码载入。在任一时刻，Erlang允许一个模块的两个版本同时运行，重新编译某个模块代码，当前版成为旧版本。两个版本的代码可以同时运行。
