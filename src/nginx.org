@@ -1,8 +1,7 @@
 #+title: nginx
 http://nginx.org/
 
-** Notes
-*** 站点跳转
+** 站点跳转
 从dirlt.com跳转到dirtysalt.info
 #+BEGIN_EXAMPLE
 http {
@@ -40,13 +39,13 @@ http {
 </html>
 #+END_EXAMPLE
 
-*** 支持软链接
+** 支持软链接
 #+BEGIN_EXAMPLE
 http {
     disable_symlinks off;
 }
 #+END_EXAMPLE
-*** 正向代理
+** 正向代理
 用nginx做一个http proxy. `resolver*`这个字段是必要的。
 #+BEGIN_EXAMPLE
 server {
@@ -73,7 +72,7 @@ In [12]: r
 Out[12]: <Response [200]>
 #+END_EXAMPLE
 
-*** 请求缓存
+** 请求缓存
 可以针对某个路径下面的请求进行缓存。不过我还没有搞清楚缓存规则是怎么样的，默认应该是对query做key.
 
 #+BEGIN_EXAMPLE
