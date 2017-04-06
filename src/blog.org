@@ -300,7 +300,7 @@
 - [[file:./blogs/anti-destruction-in-china.org][李可乐抗拆记]] by 李承鹏
 - [[file:./blogs/dark-time.org][暗时间]] by 刘未鹏
 - [[file:./blogs/wolf-totem.org][狼图腾]] by 姜戎
-- [[file:./blogs/sears-the-baby-book.org][西尔斯育儿经]] by 威廉·西尔斯;玛莎·西尔斯
+- [[file:./blogs/sears-the-baby-book.org][西尔斯育儿经]] by 威廉·西尔斯 玛莎·西尔斯
 - [[file:./blogs/platform-strategy.org][平台战略: 正在席卷全球的商业模式革命]] by 陈威如, 余卓轩
 - [[file:./blogs/nine-algos-that-changed-the-future.org][改变未来的九大算法(Nine Algorithms that Changed the Future)]] by John. McCormick
 - [[file:./blogs/the-men-who-built-america.org][谁建造了美国(The men who built America)]] by 网易公开课
@@ -325,3 +325,12 @@
 - [[file:./the-times-of-intelligence.org][智能时代]] by wujun
 - [[file:the-hard-thing-about-hard-things.org][创业维艰：如何完成比难更难的事]] by Ben Horowitz
 - [[file:bob-dylan-bio-like-a-rolling-stone.org][编年史(Like A Rolling Stone)]] of Bob Dylan
+- [[file:blogs/flowers-to-algernon.org][献给阿尔吉侬的花束(Flowers for Algernon)]]
+- [[file:blogs/how-to-win-friends-and-influence-people.org][人性的弱点全集(How to win friends and influence people)]] by Dale Carnegie
+- [[file:blogs/shoe-dog.org][鞋狗(Shoe Dog)]] by Phil Knight
+- [[file:blogs/the-bed-of-procrustes.org][随机生存的智慧: 黑天鹅语录(The Bed of Procrustes)]] by Nassim Nicholas Taleb
+- [[file:blogs/how-to-stop-worring-and-start-living.org][人性的优点全集(How to stop worring and start living]] by Dale Carnegie
+- [[file:blogs/hard-to-believe.org][万万没想到:用理工科思维理解世界]] by 万维刚
+- [[file:blogs/the-instant-economist.org][斯坦福极简经济学(The Instant Economist)]] by 蒂莫西·泰勒
+- [[file:blogs/a-serious-and-absurd-book-about-behavioural-psychology.org][一本正经又怪诞的行为心理学]] by 理查德·怀斯曼
+- [[file:./blogs/the-black-box-society.org][黑箱社会(The Black Box Society)]] by Frank Pasquale
