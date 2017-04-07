@@ -321,6 +321,7 @@ http://dirtysalt.github.io/blogs/1984.html
 http://dirtysalt.github.io/blogs/2012-birthday.html
 http://dirtysalt.github.io/blogs/2pc-vs-paxos.html
 http://dirtysalt.github.io/blogs/a-decade-at-google.html
+http://dirtysalt.github.io/blogs/a-few-days-at-village.html
 http://dirtysalt.github.io/blogs/a-great-developer-can-come-from-anywhere.html
 http://dirtysalt.github.io/blogs/a-impl-of-my-dict-book.html
 http://dirtysalt.github.io/blogs/a-little-architecture.html
@@ -329,6 +330,7 @@ http://dirtysalt.github.io/blogs/a-note-of-nobel-winner.html
 http://dirtysalt.github.io/blogs/a-person-of-fidget.html
 http://dirtysalt.github.io/blogs/a-possible-impl-of-abtest-sys.html
 http://dirtysalt.github.io/blogs/a-possible-impl-of-reco-sys.html
+http://dirtysalt.github.io/blogs/a-serious-and-absurd-book-about-behavioural-psychology.html
 http://dirtysalt.github.io/blogs/abandoned-probabilistic-option.html
 http://dirtysalt.github.io/blogs/about-dna-sequencing.html
 http://dirtysalt.github.io/blogs/america-alone-talk.html
@@ -395,6 +397,7 @@ http://dirtysalt.github.io/blogs/equipped-with-ssd.html
 http://dirtysalt.github.io/blogs/experience-of-running-coffee-shop-for-40-years.html
 http://dirtysalt.github.io/blogs/face-landmark-detection-dlib.html
 http://dirtysalt.github.io/blogs/finding-great-developers.html
+http://dirtysalt.github.io/blogs/flowers-to-algernon.html
 http://dirtysalt.github.io/blogs/from-zero-to-one.html
 http://dirtysalt.github.io/blogs/get-marriage-identity.html
 http://dirtysalt.github.io/blogs/getting-real.html
@@ -407,6 +410,7 @@ http://dirtysalt.github.io/blogs/graduate-final-report.html
 http://dirtysalt.github.io/blogs/growth-hacker.html
 http://dirtysalt.github.io/blogs/guilin-travel.html
 http://dirtysalt.github.io/blogs/hackers-and-painters.html
+http://dirtysalt.github.io/blogs/hard-to-believe.html
 http://dirtysalt.github.io/blogs/have-a-baby.html
 http://dirtysalt.github.io/blogs/have-a-nice-sleep-and-straighten-up.html
 http://dirtysalt.github.io/blogs/heart-broken.html
@@ -429,6 +433,8 @@ http://dirtysalt.github.io/blogs/how-to-get-a-job-like-mine-aaron-swartz.html
 http://dirtysalt.github.io/blogs/how-to-launch-a-mac-app-and-become-1-top-paid-app-globally.html
 http://dirtysalt.github.io/blogs/how-to-pick-your-battles-on-a-software-team.html
 http://dirtysalt.github.io/blogs/how-to-solve-it-a-new-apsect-of-math-method.html
+http://dirtysalt.github.io/blogs/how-to-stop-worring-and-start-living.html
+http://dirtysalt.github.io/blogs/how-to-win-friends-and-influence-people.html
 http://dirtysalt.github.io/blogs/idiom.html
 http://dirtysalt.github.io/blogs/industrial-disk-price.html
 http://dirtysalt.github.io/blogs/inside-job.html
@@ -535,6 +541,7 @@ http://dirtysalt.github.io/blogs/sears-the-baby-book.html
 http://dirtysalt.github.io/blogs/seediq-bale.html
 http://dirtysalt.github.io/blogs/several-waters.html
 http://dirtysalt.github.io/blogs/sfo-travel.html
+http://dirtysalt.github.io/blogs/shoe-dog.html
 http://dirtysalt.github.io/blogs/silicon-valley-etiquette.html
 http://dirtysalt.github.io/blogs/software-engineering-at-google.html
 http://dirtysalt.github.io/blogs/some-advice-from-jeff-bezos.html
@@ -565,6 +572,8 @@ http://dirtysalt.github.io/blogs/ten-rules-for-open-source-success.html
 http://dirtysalt.github.io/blogs/tensorflow-neural-art.html
 http://dirtysalt.github.io/blogs/that-man-looks-like-a-dog.html
 http://dirtysalt.github.io/blogs/the-art-of-unix-programming.html
+http://dirtysalt.github.io/blogs/the-bed-of-procrustes.html
+http://dirtysalt.github.io/blogs/the-black-box-society.html
 http://dirtysalt.github.io/blogs/the-catcher-in-the-rye.html
 http://dirtysalt.github.io/blogs/the-cathedral-and-the-bazaar.html
 http://dirtysalt.github.io/blogs/the-economic-naturalist.html
@@ -575,6 +584,7 @@ http://dirtysalt.github.io/blogs/the-golden-circle.html
 http://dirtysalt.github.io/blogs/the-great-game.html
 http://dirtysalt.github.io/blogs/the-hitchhikers-guide-to-the-galaxy.html
 http://dirtysalt.github.io/blogs/the-hurt-locker.html
+http://dirtysalt.github.io/blogs/the-instant-economist.html
 http://dirtysalt.github.io/blogs/the-little-prince.html
 http://dirtysalt.github.io/blogs/the-men-who-built-america.html
 http://dirtysalt.github.io/blogs/the-mythical-man-month.html

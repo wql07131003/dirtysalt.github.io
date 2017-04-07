@@ -522,7 +522,7 @@ UPDATE @ 2016-08-26: 发现这个方法可以用来解决remote ipython notebook
 </ul>
 
 <p>
-首先需要修改系统上限
+首先需要修改系统上限，这些可以在/etc/sysctl.conf里面修改，然后执行sysctl -p
 </p>
 <ul class="org-ul">
 <li>/proc/sys/fs/file-max # 所有进程打开文件句柄数上限</li>
