@@ -22,7 +22,7 @@ file:./images/castbox-android-app.png
 5. 有如下经验者优先：
    - Flask, MongoDB, ElasticSearch开发
    - AWS开发和部署
-   - 机器学习和推荐系统
+   - 数据挖掘，机器学习，推荐系统
 
 ** Android工程师
 岗位职责：
