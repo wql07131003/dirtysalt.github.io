@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201704 [[file:./blogs/u-of-t-professor-geoffrey-hiton.org][U of T, Geoffrey Hinton]] 一篇关于Goffrey Hiton的文章
 - 201704 [[file:./blogs/scaling-your-api-with-rate-limiters.org][Scaling your API with rate limiters]]
 - 201704 [[file:./blogs/a-few-days-at-village.org][在老家的几天]]
 - 201703 [[file:./blogs/software-engineering-at-google.org][Software Engineering at Google]] by Fergus Henderson
