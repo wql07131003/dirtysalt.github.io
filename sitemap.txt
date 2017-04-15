@@ -539,6 +539,7 @@ http://dirtysalt.github.io/blogs/reversed-bollinger-band.html
 http://dirtysalt.github.io/blogs/rework.html
 http://dirtysalt.github.io/blogs/run-wordpress-in-fast-way.html
 http://dirtysalt.github.io/blogs/running-tutorial.html
+http://dirtysalt.github.io/blogs/scaling-your-api-with-rate-limiters.html
 http://dirtysalt.github.io/blogs/scent-of-a-woman.html
 http://dirtysalt.github.io/blogs/sears-the-baby-book.html
 http://dirtysalt.github.io/blogs/seediq-bale.html
@@ -609,6 +610,7 @@ http://dirtysalt.github.io/blogs/top-10-things-that-makes-you-a-good-programmer.
 http://dirtysalt.github.io/blogs/tour-of-google-beijing.html
 http://dirtysalt.github.io/blogs/trap-of-startup-side-project.html
 http://dirtysalt.github.io/blogs/true-history-of-google-cn.html
+http://dirtysalt.github.io/blogs/u-of-t-professor-geoffrey-hiton.html
 http://dirtysalt.github.io/blogs/unecessary-hurry-up.html
 http://dirtysalt.github.io/blogs/venture-captial.html
 http://dirtysalt.github.io/blogs/vinod-khosla-talk.html
