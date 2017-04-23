@@ -17,6 +17,7 @@ Desktop Applications:
 - sudo apt-get install alarm-clock-applet # 定时闹钟
 - sudo apt-get install virtualbox
 - sudo apt-get install virtualbox-guest-additions-iso
+- sudo apt-get install nautilus-dropbox
 
 Development Applications:
 - sudo apt-get install linux-tools-common
