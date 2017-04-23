@@ -537,7 +537,22 @@ https://virtualenv.pypa.io/en/latest/index.html
 *** ipython
 `%store output_variable > output.txt` 把变量内容输出到文件
 
-UPDATE @ 2016-08-26: 发现这个方法可以用来解决remote ipython notebook的问题.
+We saw the %timeit line-magic and %%timeit cell-magic in the introduction to magic functions in IPython Magic Commands;  %%timeit 可以测试一个cell的执行时间
+- %time: Time the execution of a single statement
+- %timeit: Time repeated execution of a single statement for more accuracy
+- %prun: Run code with the profiler
+- %lprun: Run code with the line-by-line profiler
+- %memit: Measure the memory use of a single statement
+- %mprun: Run code with the line-by-line memory profiler
+
+%pdb on 打开调试模式，这样出现问题可以自动进入调试器。如果忘记打开的话，出现问题可以%debug进入调试状态。
+
+!shell-command 用来执行外部shell命令，同时可以将结果传给变量比如 x = !pwd
+
+
+-----
+
+UPDATE @ 2016-08-26: 发现下面方法可以用来解决remote ipython notebook的问题.
 - 首先在目标机器dev上启动ipython notebook. `jupyter notebook --no-browser --port=8888`
 - 然后在本机上选择绑定端口比如1000. `ssh -L "*:10000:dev:8888" dev`
 之后就可以在本地使用 `http://localhost:10000` 来访问远端的notebook了.
