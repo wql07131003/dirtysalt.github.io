@@ -612,6 +612,7 @@ http://dirtysalt.github.io/blogs/trap-of-startup-side-project.html
 http://dirtysalt.github.io/blogs/true-history-of-google-cn.html
 http://dirtysalt.github.io/blogs/u-of-t-professor-geoffrey-hiton.html
 http://dirtysalt.github.io/blogs/unecessary-hurry-up.html
+http://dirtysalt.github.io/blogs/use-wifi-aps-to-identify-location.html
 http://dirtysalt.github.io/blogs/venture-captial.html
 http://dirtysalt.github.io/blogs/vinod-khosla-talk.html
 http://dirtysalt.github.io/blogs/virgin-moxa-wool-moxibustion.html

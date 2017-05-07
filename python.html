@@ -839,7 +839,30 @@ class=logging.Formatter
 </p>
 
 <p>
-UPDATE @ 2016-08-26: 发现这个方法可以用来解决remote ipython notebook的问题.
+We saw the %timeit line-magic and %%timeit cell-magic in the introduction to magic functions in IPython Magic Commands;  %%timeit 可以测试一个cell的执行时间
+</p>
+<ul class="org-ul">
+<li>%time: Time the execution of a single statement</li>
+<li>%timeit: Time repeated execution of a single statement for more accuracy</li>
+<li>%prun: Run code with the profiler</li>
+<li>%lprun: Run code with the line-by-line profiler</li>
+<li>%memit: Measure the memory use of a single statement</li>
+<li>%mprun: Run code with the line-by-line memory profiler</li>
+</ul>
+
+<p>
+%pdb on 打开调试模式，这样出现问题可以自动进入调试器。如果忘记打开的话，出现问题可以%debug进入调试状态。
+</p>
+
+<p>
+!shell-command 用来执行外部shell命令，同时可以将结果传给变量比如 x = !pwd
+</p>
+
+
+<hr  />
+
+<p>
+UPDATE @ 2016-08-26: 发现下面方法可以用来解决remote ipython notebook的问题.
 </p>
 <ul class="org-ul">
 <li>首先在目标机器dev上启动ipython notebook. `jupyter notebook &#x2013;no-browser &#x2013;port=8888`</li>
