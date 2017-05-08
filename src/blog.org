@@ -1,6 +1,8 @@
 #+title: blog
 
 ** 2017
+- 201705 [[file:./blogs/what-a-good-ceo-looks-like.org][厉害的CEO是什么样的？]] 摘自得到的《精英日课》
+- 201705 [[file:./blogs/wujun-thoughts-on-career.org][吴军对职业发展的一些看法]] 摘自得到的《硅谷来信》
 - 201705 [[file:./blogs/use-wifi-aps-to-identify-location.org][利用WiFi热点来定位]]
 - 201704 [[file:./blogs/u-of-t-professor-geoffrey-hiton.org][U of T, Geoffrey Hinton]] 一篇关于Goffrey Hiton的文章
 - 201704 [[file:./blogs/scaling-your-api-with-rate-limiters.org][Scaling your API with rate limiters]]
@@ -338,3 +340,5 @@
 - [[file:blogs/the-instant-economist.org][斯坦福极简经济学(The Instant Economist)]] by 蒂莫西·泰勒
 - [[file:blogs/a-serious-and-absurd-book-about-behavioural-psychology.org][一本正经又怪诞的行为心理学]] by 理查德·怀斯曼
 - [[file:./blogs/the-black-box-society.org][黑箱社会(The Black Box Society)]] by Frank Pasquale
+- [[file:./blogs/a-chronicle-of-tencent.org][腾讯传]] by 吴晓波
+- [[file:blogs/so-good-they-can-not-ignore-you.org][优秀到不能被忽视(So Good they can not ignore you)]] by Cal Newport
