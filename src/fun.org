@@ -2,6 +2,9 @@
 updated @ 2017-01-01
 
 -----
+file:../images/first-law-of-software-quality.jpg
+
+-----
 原来只要创建一套基于映射的词汇体系，就能解决我在评论别人的东西时只会说问题、优化和可能性，不会赞美和鼓励的社交难题……
 
 file:../images/what-it-actually-means.jpg
