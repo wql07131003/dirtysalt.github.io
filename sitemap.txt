@@ -320,6 +320,7 @@ http://dirtysalt.github.io/blogs/10-lessons-from-10-years-of-aws.html
 http://dirtysalt.github.io/blogs/1984.html
 http://dirtysalt.github.io/blogs/2012-birthday.html
 http://dirtysalt.github.io/blogs/2pc-vs-paxos.html
+http://dirtysalt.github.io/blogs/a-chronicle-of-tencent.html
 http://dirtysalt.github.io/blogs/a-decade-at-google.html
 http://dirtysalt.github.io/blogs/a-few-days-at-village.html
 http://dirtysalt.github.io/blogs/a-great-developer-can-come-from-anywhere.html
@@ -547,6 +548,7 @@ http://dirtysalt.github.io/blogs/several-waters.html
 http://dirtysalt.github.io/blogs/sfo-travel.html
 http://dirtysalt.github.io/blogs/shoe-dog.html
 http://dirtysalt.github.io/blogs/silicon-valley-etiquette.html
+http://dirtysalt.github.io/blogs/so-good-they-can-not-ignore-you.html
 http://dirtysalt.github.io/blogs/software-engineering-at-google.html
 http://dirtysalt.github.io/blogs/some-advice-from-jeff-bezos.html
 http://dirtysalt.github.io/blogs/some-non-casual-thoughts.html
@@ -618,6 +620,7 @@ http://dirtysalt.github.io/blogs/vinod-khosla-talk.html
 http://dirtysalt.github.io/blogs/virgin-moxa-wool-moxibustion.html
 http://dirtysalt.github.io/blogs/virtual-machine-design-and-implementation-in-c-cpp.html
 http://dirtysalt.github.io/blogs/visit-tj-data-center.html
+http://dirtysalt.github.io/blogs/what-a-good-ceo-looks-like.html
 http://dirtysalt.github.io/blogs/what-can-i-do-when-old.html
 http://dirtysalt.github.io/blogs/what-happens-to-older-developers.html
 http://dirtysalt.github.io/blogs/what-makes-a-great-software-engineer.html
@@ -632,6 +635,7 @@ http://dirtysalt.github.io/blogs/wolf-totem.html
 http://dirtysalt.github.io/blogs/work-efficiently-in-facebook.html
 http://dirtysalt.github.io/blogs/writing-clean-code.html
 http://dirtysalt.github.io/blogs/wu-qing-yuan-bio.html
+http://dirtysalt.github.io/blogs/wujun-thoughts-on-career.html
 http://dirtysalt.github.io/blogs/xmn-travel.html
 http://dirtysalt.github.io/blogs/ymy-travel.html
 http://dirtysalt.github.io/blogs/you-cant-read-all-books.html

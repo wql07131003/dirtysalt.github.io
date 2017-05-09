@@ -64,14 +64,12 @@
 <p>
 除了编译/运行方式外，还可以以script方式执行，比如下面
 </p>
-<div class="org-src-container">
+<pre class="example">
+#!/usr/bin/env escript
 
-<pre class="src src-erlang">#!/usr/bin/env escript
-
-<span class="org-function-name">main</span>(<span class="org-variable-name">Args</span>) -&gt;
-    <span class="org-type">io</span>:<span class="org-type">format</span>(<span class="org-string">"Hello world~n"</span>)
+main(Args) -&gt;
+    io:format("Hello world~n")
 </pre>
-</div>
 
 <p>
 此外我们还可以在erl里面执行某个模块的函数. c(test).用来编译这个模块，test:my_func().来运行这个函数。erlang里面使用.表示结束。

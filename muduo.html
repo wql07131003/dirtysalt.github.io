@@ -652,7 +652,7 @@ TcpConnection完成的工作就是当TCP连接建立之后处理socket的读写�
 <div class="org-src-container">
 
 <pre class="src src-C++"><span class="org-keyword">class</span> <span class="org-type">TcpConnection</span> : <span class="org-constant">boost</span>::<span class="org-type">noncopyable</span>,
-                      <span class="org-keyword">public</span> <span class="org-constant">boost</span>::<span class="org-type">enable_shared_from_this</span>&lt;TcpConnection&gt;
+                      <span class="org-keyword">public</span> <span class="org-constant">boost</span>::<span class="org-type">enable_shared_from_this</span>&lt;<span class="org-type">TcpConnection</span>&gt;
 {
   <span class="org-keyword">public</span>:
     <span class="org-comment-delimiter">/// </span><span class="org-comment">Constructs a TcpConnection with a connected sockfd</span>

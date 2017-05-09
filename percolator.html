@@ -349,7 +349,7 @@ Snapshot isolation does not provide serializability，这个问题以下面的ps
     <span class="org-keyword">if</span> (<span class="org-negation-char">!</span>T.Commit()) <span class="org-keyword">return</span> <span class="org-constant">false</span>;  <span class="org-comment-delimiter">// </span><span class="org-comment">commit point</span>
     <span class="org-comment-delimiter">// </span><span class="org-comment">Second phase: write out write records for secondary cells.</span>
     <span class="org-keyword">for</span> (<span class="org-type">Write</span> <span class="org-variable-name">w</span> : secondaries) {
-      <span class="org-constant">bigtable</span>::Write(w.row, w.col+<span class="org-string">"write"</span>, <span class="org-type">commit</span> <span class="org-variable-name">ts</span>, <span class="org-type">start</span> <span class="org-variable-name">ts</span> );
+      <span class="org-constant">bigtable</span>::<span class="org-variable-name">Write</span>(w.row, w.col+<span class="org-string">"write"</span>, <span class="org-type">commit</span> <span class="org-variable-name">ts</span>, <span class="org-type">start</span> <span class="org-variable-name">ts</span> );
       <span class="org-constant">bigtable</span>::Erase(w.row, w.col+<span class="org-string">"lock"</span>, <span class="org-type">commit</span> <span class="org-variable-name">ts</span>);
     }
     <span class="org-keyword">return</span> <span class="org-constant">true</span>;

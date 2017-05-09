@@ -367,9 +367,9 @@ literal处理比较有趣，大致方式如下
 <span class="org-function-name">lzf_decompress</span> (<span class="org-keyword">const</span> <span class="org-type">void</span> *<span class="org-keyword">const</span> <span class="org-variable-name">in_data</span>,  <span class="org-type">unsigned</span> <span class="org-type">int</span> <span class="org-variable-name">in_len</span>,
                 <span class="org-type">void</span>             *<span class="org-variable-name">out_data</span>, <span class="org-type">unsigned</span> <span class="org-type">int</span> <span class="org-variable-name">out_len</span>)
 {
-    u8 <span class="org-keyword">const</span> *<span class="org-variable-name">ip</span> = (<span class="org-keyword">const</span> <span class="org-type">u8</span> *)in_data;
+    <span class="org-type">u8</span> <span class="org-keyword">const</span> *<span class="org-variable-name">ip</span> = (<span class="org-keyword">const</span> <span class="org-type">u8</span> *)in_data;
     <span class="org-type">u8</span>       *<span class="org-variable-name">op</span> = (<span class="org-type">u8</span> *)out_data;
-    u8 <span class="org-keyword">const</span> *<span class="org-keyword">const</span> <span class="org-variable-name">in_end</span>  = ip + in_len;
+    <span class="org-type">u8</span> <span class="org-keyword">const</span> *<span class="org-keyword">const</span> <span class="org-variable-name">in_end</span>  = ip + in_len;
     <span class="org-type">u8</span>       *<span class="org-keyword">const</span> <span class="org-variable-name">out_end</span> = op + out_len;
 
     <span class="org-keyword">do</span>
@@ -406,7 +406,7 @@ literal处理比较有趣，大致方式如下
         {
             <span class="org-type">unsigned</span> <span class="org-type">int</span> <span class="org-variable-name">len</span> = ctrl &gt;&gt; 5;
 
-            <span class="org-type">u8</span> *<span class="org-variable-name">ref</span> = op - ((ctrl &amp; 0x1f) &lt;&lt; 8) - 1;
+            <span class="org-type">u8</span> *<span class="org-variable-name">ref</span> = op - ((<span class="org-type">ctrl</span> &amp; 0x1f) &lt;&lt; 8) - 1;
 
             <span class="org-keyword">if</span> (len == 7)
             {

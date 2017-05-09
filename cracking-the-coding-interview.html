@@ -766,7 +766,7 @@ Questions:
     c1++;
   }
   <span class="org-comment-delimiter">// </span><span class="org-comment">find 1.</span>
-  <span class="org-keyword">while</span>(<span class="org-negation-char">!</span>(n &amp; 0x1)) {
+  <span class="org-keyword">while</span>(<span class="org-negation-char">!</span>(<span class="org-type">n</span> &amp; 0x1)) {
     n &gt;&gt;= 1;
     c0++;
   }
@@ -788,7 +788,7 @@ Questions:
   <span class="org-type">int</span> <span class="org-variable-name">c1</span> = 0;
   <span class="org-type">int</span> <span class="org-variable-name">c0</span> = 0;
   <span class="org-comment-delimiter">// </span><span class="org-comment">find 1.</span>
-  <span class="org-keyword">while</span>(<span class="org-negation-char">!</span>(n &amp; 0x1)) {
+  <span class="org-keyword">while</span>(<span class="org-negation-char">!</span>(<span class="org-type">n</span> &amp; 0x1)) {
     n &gt;&gt;= 1;
     c0++;
   }
@@ -1140,16 +1140,16 @@ Questions:
     <span class="org-keyword">if</span>(k == 0) <span class="org-keyword">return</span> x;
     <span class="org-keyword">if</span>(x == Q3.top()) {
       Q3.pop();
-      Q3.push(x * 3);
-      Q3.push(x * 5);
-      Q3.push(x * 7);
+      Q3.push(<span class="org-type">x</span> * 3);
+      Q3.push(<span class="org-type">x</span> * 5);
+      Q3.push(<span class="org-type">x</span> * 7);
     } <span class="org-keyword">else</span> <span class="org-keyword">if</span>(x == Q5.top()) {
       Q5.pop();
-      Q5.push(x * 5);
-      Q5.push(x * 7);
+      Q5.push(<span class="org-type">x</span> * 5);
+      Q5.push(<span class="org-type">x</span> * 7);
     } <span class="org-keyword">else</span> {
       Q7.pop();
-      Q7.push(x * 7);
+      Q7.push(<span class="org-type">x</span> * 7);
     }
   }
 }
@@ -1421,7 +1421,7 @@ Questions:
 
 <span class="org-type">int</span> <span class="org-function-name">c2</span>(<span class="org-type">int</span> <span class="org-variable-name">n</span>) {
   <span class="org-type">int</span> <span class="org-variable-name">pow</span> = 1;
-  <span class="org-keyword">while</span>((pow * 10) &lt;= n) pow *= 10;
+  <span class="org-keyword">while</span>((<span class="org-type">pow</span> * 10) &lt;= n) pow *= 10;
   <span class="org-keyword">return</span> c2r(n,pow);
 }
 

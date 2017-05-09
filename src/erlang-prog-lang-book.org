@@ -6,12 +6,12 @@
 编译器 =erlc= 将.erl文件编译成为.beam文件，然后由运行器 =erl= 来执行。如果我们有一个hello.erl, 我们想执行里面start函数的话，可以运行 =erl -noshell -s hello start -s init stop=
 
 除了编译/运行方式外，还可以以script方式执行，比如下面
-#+BEGIN_SRC erlang
+#+BEGIN_EXAMPLE
 #!/usr/bin/env escript
 
 main(Args) ->
     io:format("Hello world~n")
-#+END_SRC
+#+END_EXAMPLE
 
 此外我们还可以在erl里面执行某个模块的函数. c(test).用来编译这个模块，test:my_func().来运行这个函数。erlang里面使用.表示结束。
 #+BEGIN_EXAMPLE

@@ -372,7 +372,7 @@ wacther的状态有下面这么几种：
       EV_INVOKE_PENDING;
     }
   <span class="org-keyword">while</span> (expect_true (
-    activecnt
+    <span class="org-type">activecnt</span>
     &amp;&amp; <span class="org-negation-char">!</span>loop_done
     &amp;&amp; <span class="org-negation-char">!</span>(flags &amp; (EVRUN_ONCE | EVRUN_NOWAIT))
   ));

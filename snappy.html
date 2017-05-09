@@ -461,13 +461,13 @@ Snappy里面有相当多的代码片段非常精巧(一定程度上难懂)，所
   <span class="org-keyword">if</span> (ptr &gt;= limit) <span class="org-keyword">return</span> <span class="org-constant">NULL</span>;
   b = *(ptr++); result = b &amp; 127;          <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
   <span class="org-keyword">if</span> (ptr &gt;= limit) <span class="org-keyword">return</span> <span class="org-constant">NULL</span>;
-  b = *(ptr++); result |= (b &amp; 127) &lt;&lt;  7; <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
+  b = *(ptr++); result |= (<span class="org-type">b</span> &amp; 127) &lt;&lt;  7; <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
   <span class="org-keyword">if</span> (ptr &gt;= limit) <span class="org-keyword">return</span> <span class="org-constant">NULL</span>;
-  b = *(ptr++); result |= (b &amp; 127) &lt;&lt; 14; <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
+  b = *(ptr++); result |= (<span class="org-type">b</span> &amp; 127) &lt;&lt; 14; <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
   <span class="org-keyword">if</span> (ptr &gt;= limit) <span class="org-keyword">return</span> <span class="org-constant">NULL</span>;
-  b = *(ptr++); result |= (b &amp; 127) &lt;&lt; 21; <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
+  b = *(ptr++); result |= (<span class="org-type">b</span> &amp; 127) &lt;&lt; 21; <span class="org-keyword">if</span> (b &lt; 128) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
   <span class="org-keyword">if</span> (ptr &gt;= limit) <span class="org-keyword">return</span> <span class="org-constant">NULL</span>;
-  b = *(ptr++); result |= (b &amp; 127) &lt;&lt; 28; <span class="org-keyword">if</span> (b &lt; 16) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
+  b = *(ptr++); result |= (<span class="org-type">b</span> &amp; 127) &lt;&lt; 28; <span class="org-keyword">if</span> (b &lt; 16) <span class="org-keyword">goto</span> <span class="org-constant">done</span>;
   <span class="org-keyword">return</span> <span class="org-constant">NULL</span>;       <span class="org-comment-delimiter">// </span><span class="org-comment">Value is too long to be a varint32</span>
  <span class="org-constant">done</span>:
   *OUTPUT = result;
@@ -571,7 +571,7 @@ Snappy里面有相当多的代码片段非常精巧(一定程度上难懂)，所
   }
 
   *table_size = htsize;
-  memset(table, 0, htsize * <span class="org-keyword">sizeof</span>(*table)); <span class="org-comment-delimiter">// </span><span class="org-comment">memset(0)&#26159;&#38656;&#35201;&#30340;&#65292;&#22312;Compress&#37096;&#20998;&#21487;&#20197;&#30475;&#21040;&#20026;&#20160;&#20040;&#38656;&#35201;&#28165;0.</span>
+  memset(table, 0, <span class="org-type">htsize</span> * <span class="org-keyword">sizeof</span>(*table)); <span class="org-comment-delimiter">// </span><span class="org-comment">memset(0)&#26159;&#38656;&#35201;&#30340;&#65292;&#22312;Compress&#37096;&#20998;&#21487;&#20197;&#30475;&#21040;&#20026;&#20160;&#20040;&#38656;&#35201;&#28165;0.</span>
   <span class="org-keyword">return</span> table;
 }
 </pre>
@@ -1212,7 +1212,7 @@ writer判断自己解码之后长度和uncompressed_len是否相同。
  <span class="org-keyword">public</span>:
   <span class="org-keyword">inline</span> <span class="org-keyword">explicit</span> <span class="org-function-name">SnappyArrayWriter</span>(<span class="org-type">char</span>* <span class="org-variable-name">dst</span>)
       : base_(dst),
-        op_(dst) {
+        <span class="org-type">op_</span>(<span class="org-variable-name">dst</span>) {
   }
 
   <span class="org-keyword">inline</span> <span class="org-type">void</span> <span class="org-function-name">SetExpectedLength</span>(<span class="org-type">size_t</span> <span class="org-variable-name">len</span>) {
@@ -1388,7 +1388,7 @@ SnappyDecompressor有几个比较重要的方法：
     <span class="org-keyword">const</span> <span class="org-type">uint32</span> <span class="org-variable-name">length</span> = entry &amp; 0xff;
 
     <span class="org-comment-delimiter">// </span><span class="org-comment">&#22914;&#26524;&#36825;&#20010;tag&#26159;LITERAL&#30340;&#35805;</span>
-    <span class="org-keyword">if</span> ((c &amp; 0x3) == LITERAL) {
+    <span class="org-keyword">if</span> ((<span class="org-type">c</span> &amp; 0x3) == LITERAL) {
       <span class="org-type">uint32</span> <span class="org-variable-name">literal_length</span> = length + trailer; <span class="org-comment-delimiter">// </span><span class="org-comment">&#37027;&#20040;trailer&#34920;&#31034;literal_length&#37096;&#20998;</span>
       <span class="org-comment-delimiter">// </span><span class="org-comment">&#21518;&#38754;&#25805;&#20316;&#23601;&#26159;&#20889;&#20837;LITERAL</span>
       <span class="org-type">uint32</span> <span class="org-variable-name">avail</span> = ip_limit_ - ip;
@@ -1414,7 +1414,7 @@ SnappyDecompressor有几个比较重要的方法：
       <span class="org-comment-delimiter">// </span><span class="org-comment">copy_offset/256 is encoded in bits 8..10.  By just fetching</span>
       <span class="org-comment-delimiter">// </span><span class="org-comment">those bits, we get copy_offset (since the bit-field starts at</span>
       <span class="org-comment-delimiter">// </span><span class="org-comment">bit 8).</span>
-        <span class="org-keyword">const</span> <span class="org-type">uint32</span> <span class="org-variable-name">copy_offset</span> = (entry &amp; 0x700) ; <span class="org-comment-delimiter">// </span><span class="org-comment">&#27880;&#24847;&#36825;&#20010;&#22320;&#26041;&#24050;&#32463; * 256&#20102;&#65292;&#25105;&#20204;&#19981;&#38656;&#35201;&#36827;&#34892;&#20219;&#20309;&#25805;&#20316;</span>
+        <span class="org-keyword">const</span> <span class="org-type">uint32</span> <span class="org-variable-name">copy_offset</span> = (<span class="org-type">entry</span> &amp; 0x700) ; <span class="org-comment-delimiter">// </span><span class="org-comment">&#27880;&#24847;&#36825;&#20010;&#22320;&#26041;&#24050;&#32463; * 256&#20102;&#65292;&#25105;&#20204;&#19981;&#38656;&#35201;&#36827;&#34892;&#20219;&#20309;&#25805;&#20316;</span>
        <span class="org-comment-delimiter">// </span><span class="org-comment">&#22238;&#24518;COPY(01)&#30340;(offset &gt;&gt; 8) &lt;&lt; 5.&#25152;&#20197;&#36825;&#20010;&#22320;&#26041;&#30452;&#25509;&#23601;&#26159;&#36825;&#20010;&#32467;&#26524;</span>
        <span class="org-comment-delimiter">// </span><span class="org-comment">&#22914;&#26524;&#26159;copy&#30340;&#35805;&#65292;&#37027;&#20040;trailer&#20449;&#24687;&#26159;offset&#32780;&#19981;&#26159;length</span>
        <span class="org-comment-delimiter">// </span><span class="org-comment">&#28982;&#21518;&#23558;COPY&#20889;&#20837;.</span>
@@ -1450,7 +1450,7 @@ SnappyDecompressor有几个比较重要的方法：
 
 <span class="org-keyword">class</span> <span class="org-type">FileSink</span>:<span class="org-keyword">public</span> <span class="org-constant">snappy</span>::<span class="org-type">Sink</span>{
   <span class="org-keyword">public</span>:
-    <span class="org-function-name">FileSink</span>(<span class="org-type">int</span> <span class="org-variable-name">fd</span>):fd_(fd){
+    <span class="org-function-name">FileSink</span>(<span class="org-type">int</span> <span class="org-variable-name">fd</span>):<span class="org-function-name">fd_</span>(fd){
     }
     <span class="org-keyword">virtual</span> ~<span class="org-function-name">FileSink</span>(){}
     <span class="org-keyword">virtual</span> <span class="org-type">char</span>* <span class="org-function-name">GetAppendBuffer</span>(<span class="org-type">size_t</span> <span class="org-variable-name">length</span>,<span class="org-type">char</span>* <span class="org-variable-name">scratch</span>){

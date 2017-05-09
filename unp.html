@@ -1875,9 +1875,9 @@ fcntl(fd,F_SETFL,flags);
 
 <span class="org-comment">   This function is a cancellation point and therefore not marked with</span>
 <span class="org-comment">   __THROW.  */</span>
-<span class="org-keyword">extern</span> <span class="org-type">int</span> <span class="org-function-name">select</span> (<span class="org-type">int</span> <span class="org-variable-name">__nfds</span>, fd_set *__restrict __readfds,
-                   fd_set *__restrict __writefds,
-                   fd_set *__restrict __exceptfds,
+<span class="org-keyword">extern</span> <span class="org-type">int</span> <span class="org-function-name">select</span> (<span class="org-type">int</span> <span class="org-variable-name">__nfds</span>, <span class="org-type">fd_set</span> *<span class="org-variable-name">__restrict</span> __readfds,
+                   <span class="org-type">fd_set</span> *<span class="org-variable-name">__restrict</span> __writefds,
+                   <span class="org-type">fd_set</span> *<span class="org-variable-name">__restrict</span> __exceptfds,
                    <span class="org-keyword">struct</span> <span class="org-type">timeval</span> *<span class="org-variable-name">__restrict</span> __timeout);
 
    This function is a <span class="org-type">cancellation</span> <span class="org-function-name">point</span> <span class="org-keyword">and</span> therefore <span class="org-keyword">not</span> marked with

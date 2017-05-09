@@ -195,7 +195,7 @@ C++来提供了内存分配失败的回调函数，但是这个只能够处理�
 <span class="org-comment"> *  be of this type.  */</span>
 <span class="org-keyword">typedef</span> <span class="org-type">void</span> (*<span class="org-type">new_handler</span>)();
 <span class="org-comment-delimiter">/// </span><span class="org-comment">Takes a replacement handler as the argument, returns the previous handler.</span>
-<span class="org-type">new_handler</span> <span class="org-type">set_new_handler</span>(<span class="org-function-name">new_handler</span>) <span class="org-keyword">throw</span>();
+<span class="org-type">new_handler</span> <span class="org-function-name">set_new_handler</span>(<span class="org-type">new_handler</span>) <span class="org-keyword">throw</span>();
 </pre>
 </div>
 </div>
@@ -1044,7 +1044,7 @@ C++11在C++03上做了许多改进，而且都是非常实用的改进。BS在�
 <span class="org-keyword">class</span> <span class="org-type">A</span> {
   <span class="org-keyword">public</span>:
     <span class="org-type">int</span> <span class="org-variable-name">v</span>;
-    <span class="org-function-name">A</span>(): v(123) {
+    <span class="org-function-name">A</span>(): <span class="org-function-name">v</span>(123) {
         cout &lt;&lt; <span class="org-string">"ctor"</span> &lt;&lt; endl;
     }
     <span class="org-function-name">A</span>(<span class="org-keyword">const</span> <span class="org-type">A</span>&amp; <span class="org-variable-name">x</span>) {
