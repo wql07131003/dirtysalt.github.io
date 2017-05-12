@@ -44,7 +44,6 @@
 <url><loc>http://dirtysalt.github.io/cassandra.html</loc></url>
 <url><loc>http://dirtysalt.github.io/ceph.html</loc></url>
 <url><loc>http://dirtysalt.github.io/chubby.html</loc></url>
-<url><loc>http://dirtysalt.github.io/clip.html</loc></url>
 <url><loc>http://dirtysalt.github.io/clojure.html</loc></url>
 <url><loc>http://dirtysalt.github.io/cloudera-impala-real-time-queries-in-apache-hadoop-for-real.html</loc></url>
 <url><loc>http://dirtysalt.github.io/coding-for-ssd.html</loc></url>
@@ -216,6 +215,7 @@
 <url><loc>http://dirtysalt.github.io/optimizing-software-in-cpp.html</loc></url>
 <url><loc>http://dirtysalt.github.io/orcfile.html</loc></url>
 <url><loc>http://dirtysalt.github.io/parquet.html</loc></url>
+<url><loc>http://dirtysalt.github.io/paste.html</loc></url>
 <url><loc>http://dirtysalt.github.io/paxos.html</loc></url>
 <url><loc>http://dirtysalt.github.io/percolator.html</loc></url>
 <url><loc>http://dirtysalt.github.io/perf.html</loc></url>

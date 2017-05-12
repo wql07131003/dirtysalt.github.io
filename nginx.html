@@ -141,6 +141,33 @@ server {
   }
 }
 </pre>
+
+<p>
+UPDATE: 这篇 <a href="http://zyan.cc/nginx_cache/">文章</a> 给了一些看上去不错的配置和解释
+</p>
+
+<blockquote>
+<p>
+#设置Web缓存区名称为cache_one，内存缓存空间大小为200MB，1天没有被访问的内容自动清除，硬盘缓存空间大小为30GB。
+proxy_cache_path  /data0/proxy_cache_dir  levels=1:2   keys_zone=cache_one:200m inactive=1d max_size=30g;
+</p>
+
+<p>
+#如果后端的服务器返回502、504、执行超时等错误，自动将请求转发到upstream负载均衡池中的另一台服务器，实现故障转移。
+proxy_next_upstream http_502 http_504 error timeout invalid_header;
+</p>
+
+<p>
+#对不同的HTTP状态码设置不同的缓存时间
+proxy_cache_valid  200 304 12h;
+#以域名、URI、参数组合成Web缓存的Key值，Nginx根据Key值哈希，存储缓存内容到二级缓存目录内
+proxy_cache_key $host$uri$is_args$args;
+</p>
+</blockquote>
+
+<p>
+所以我们可以设置proxy_cache_key字段来选择cache_key.
+</p>
 </div>
 </div>
 </div>

@@ -42,7 +42,6 @@ http://dirtysalt.github.io/case-study-gfs-evolution-on-fast-forward.html
 http://dirtysalt.github.io/cassandra.html
 http://dirtysalt.github.io/ceph.html
 http://dirtysalt.github.io/chubby.html
-http://dirtysalt.github.io/clip.html
 http://dirtysalt.github.io/clojure.html
 http://dirtysalt.github.io/cloudera-impala-real-time-queries-in-apache-hadoop-for-real.html
 http://dirtysalt.github.io/coding-for-ssd.html
@@ -214,6 +213,7 @@ http://dirtysalt.github.io/oprofile.html
 http://dirtysalt.github.io/optimizing-software-in-cpp.html
 http://dirtysalt.github.io/orcfile.html
 http://dirtysalt.github.io/parquet.html
+http://dirtysalt.github.io/paste.html
 http://dirtysalt.github.io/paxos.html
 http://dirtysalt.github.io/percolator.html
 http://dirtysalt.github.io/perf.html
