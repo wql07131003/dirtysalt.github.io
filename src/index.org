@@ -1,6 +1,6 @@
 #+title: dirtysalt's homepage
 
-[[file:./links.org][Great links]] [[file:./blog.org][Blogs]] [[file:./jobs.org][Jobs]]
+[[file:./links.org][Great links]] [[file:./blog.org][Blogs]] [[file:./jobs.org][Jobs]] [[file:./paste.org][Paste]]
 
 -----
 /Operating System/

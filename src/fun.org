@@ -1,5 +1,4 @@
 #+title: fun
-updated @ 2017-01-01
 
 -----
 file:../images/first-law-of-software-quality.jpg
