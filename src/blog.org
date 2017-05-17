@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201705 [[file:./blogs/issue-of-retry-after-field.org][Retry-After字段带来的问题]]
 - 201705 [[file:./blogs/what-a-good-ceo-looks-like.org][厉害的CEO是什么样的？]] 摘自得到的《精英日课》
 - 201705 [[file:./blogs/wujun-thoughts-on-career.org][吴军对职业发展的一些看法]] 摘自得到的《硅谷来信》
 - 201705 [[file:./blogs/use-wifi-aps-to-identify-location.org][利用WiFi热点来定位]]
