@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201705 [[file:./blogs/colleague-creates-spaghetti-code.org][What to do when Your Colleague Creates Spaghetti Code]]
 - 201705 [[file:./blogs/how-yelp-runs-millions-of-tests-every-day.org][How Yelp Runs Millions of Tests Every Day]]
 - 201705 [[file:./blogs/ssh-tunneling-python.org][SSH Tunneling in Python]]
 - 201705 [[file:./blogs/issue-of-retry-after-field.org][Retry-After字段带来的问题]]
