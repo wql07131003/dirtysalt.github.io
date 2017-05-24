@@ -372,6 +372,7 @@ http://dirtysalt.github.io/blogs/cmb-hk-account.html
 http://dirtysalt.github.io/blogs/code-for-run.html
 http://dirtysalt.github.io/blogs/code-quality-the-open-source-perspective.html
 http://dirtysalt.github.io/blogs/cola-and-water.html
+http://dirtysalt.github.io/blogs/colleague-creates-spaghetti-code.html
 http://dirtysalt.github.io/blogs/competitors-are-not-the-enemy.html
 http://dirtysalt.github.io/blogs/confessions-of-an-advertising-man.html
 http://dirtysalt.github.io/blogs/convict-conditioning.html
@@ -439,6 +440,7 @@ http://dirtysalt.github.io/blogs/how-to-pick-your-battles-on-a-software-team.htm
 http://dirtysalt.github.io/blogs/how-to-solve-it-a-new-apsect-of-math-method.html
 http://dirtysalt.github.io/blogs/how-to-stop-worring-and-start-living.html
 http://dirtysalt.github.io/blogs/how-to-win-friends-and-influence-people.html
+http://dirtysalt.github.io/blogs/how-yelp-runs-millions-of-tests-every-day.html
 http://dirtysalt.github.io/blogs/idiom.html
 http://dirtysalt.github.io/blogs/industrial-disk-price.html
 http://dirtysalt.github.io/blogs/inside-job.html
@@ -556,6 +558,7 @@ http://dirtysalt.github.io/blogs/some-non-casual-thoughts.html
 http://dirtysalt.github.io/blogs/spam-from-apple.html
 http://dirtysalt.github.io/blogs/spark-master-ui.html
 http://dirtysalt.github.io/blogs/squid-https-forwarding-proxy.html
+http://dirtysalt.github.io/blogs/ssh-tunneling-python.html
 http://dirtysalt.github.io/blogs/stackoverflow-maintenance.html
 http://dirtysalt.github.io/blogs/stairway-to-heaven.html
 http://dirtysalt.github.io/blogs/star-wars.html
