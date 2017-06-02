@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201706 [[file:blogs/on-python-profiling.org][Python程序性能分析]]
 - 201706 [[file:./blogs/44-eng-mag-lessons.org][44 engineering management lessons]]
 - 201706 [[file:./blogs/use-emacs-org-mode-to-build-site.org][用Emacs Org-Mode来建站]]
 - 201705 [[file:./blogs/colleague-creates-spaghetti-code.org][What to do when Your Colleague Creates Spaghetti Code]]
