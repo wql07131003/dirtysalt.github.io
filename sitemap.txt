@@ -590,6 +590,7 @@ http://dirtysalt.github.io/blogs/the-catcher-in-the-rye.html
 http://dirtysalt.github.io/blogs/the-cathedral-and-the-bazaar.html
 http://dirtysalt.github.io/blogs/the-economic-naturalist.html
 http://dirtysalt.github.io/blogs/the-effective-engineer-by-edmond-lau.html
+http://dirtysalt.github.io/blogs/the-evolution-of-code-deploys-at-reddit.html
 http://dirtysalt.github.io/blogs/the-facebook-effect.html
 http://dirtysalt.github.io/blogs/the-future-of-programming.html
 http://dirtysalt.github.io/blogs/the-golden-circle.html

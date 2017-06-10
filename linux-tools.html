@@ -515,7 +515,7 @@ specification
 <h3 id="orgheadline19"><span class="section-number-3">5.7</span> mtr</h3>
 <div class="outline-text-3" id="text-5-7">
 <p>
-my traceroute. ping和traceroute两个工具的合体. 两种工作方式, 一种是实时查看, 一种是生成报表. 
+my traceroute. ping和traceroute两个工具的合体. 两种工作方式, 一种是实时查看, 一种是生成报表.
 两者区别是实时查看的话mtr会不断地发送ICMP, 而报表模式则需要指定发送多少个ICMP.
 </p>
 
@@ -775,6 +775,10 @@ ntp(network time protocol)是用来做机器时间同步的，包含下面几个
 <li>FORWARD ACCEPT 所有转发接受</li>
 <li>OUTPUT ACCEPT 所有输出接受</li>
 </ul>
+
+<p>
+`/sbin/iptables -I INPUT -p tcp &#x2013;dport 80 -j ACCEPT` 打开80端口
+</p>
 
 <p>
 `iptables -A [chain] [chain-specification]` 添加规则

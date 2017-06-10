@@ -69,8 +69,14 @@ def dyn_check_profiler(interval=30):
 </div>
 
 <p>
-我对爬虫观察了一段时间，然后使用 <a href="https://github.com/jrfonseca/gprof2dot">gprof2dot</a> 这个工具对profile data图形化展现了出来。可以看到有很大部分时间花费在cookie整合上，不过其实我们并不需要cookie这个功能
+我对爬虫观察了一段时间，然后使用 <a href="https://github.com/jrfonseca/gprof2dot">gprof2dot</a> 这个工具对profile data图形化展现了出来。可以看到有很大部分时间花费在cookie整合上，不过其实我们并不需要cookie这个功能。
 </p>
+<ul class="org-ul">
+<li>L1 文件/行号/函数</li>
+<li>L2 累计花费时间(cumtime)</li>
+<li>L3 自身花费时间(tottime)</li>
+<li>L4 调用次数(calls)</li>
+</ul>
 
 
 <div class="figure">
