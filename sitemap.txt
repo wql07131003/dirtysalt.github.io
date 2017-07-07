@@ -522,6 +522,7 @@ http://dirtysalt.github.io/blogs/principle-of-alloc-time-for-work.html
 http://dirtysalt.github.io/blogs/principle-of-smart-route-in-vpn.html
 http://dirtysalt.github.io/blogs/professional-amateur.html
 http://dirtysalt.github.io/blogs/programmers-are-distraction-for-your-startup.html
+http://dirtysalt.github.io/blogs/proxy-on-http-streaming.html
 http://dirtysalt.github.io/blogs/pulp-fiction.html
 http://dirtysalt.github.io/blogs/purchase-compaq-notebook.html
 http://dirtysalt.github.io/blogs/purchase-diamond.html
