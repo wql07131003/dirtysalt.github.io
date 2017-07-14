@@ -56,7 +56,10 @@ Using an experimental sample of 2,500 images, we found that a combination of fil
 
 另外一个问题是，如何判断图片质量没有明显损失。SSIM(structural similarity metric)可以用来做这件事情，然后还有一个python library [[https://github.com/jterrace/pyssim/][pyssim]]. 这个算法运行非常快速，所以可以在上面运行多轮迭代。
 
-下面算法的大致思路是，用quality = 95做一个base, 得到SSIM-Base, 之后尝试使用二分办法去搜索quality, 每个quality都会有一个SSIM. 如果SSIM/SSIM-Base > 0.95那么就是可以接受的一个quality.
+
+下面算法的大致思路是，用quality = 95做一个base, 得到SSIM-Base, 之后尝试使用二分办法去搜索quality, 每个quality都会有一个SSIM. 如果SSIM/SSIM-Base > 0.95那么就是可以接受的一个quality. 我们先用quality 80和85看了一下SSIM的变化，确定80-85是一个合理的区间。
+
+file:../images/yelp-ssims-strategies.png
 
 #+BEGIN_SRC Python
 import cStringIO
@@ -127,6 +130,8 @@ def jpeg_dynamic_quality(original_photo):
         default_ssim = get_ssim_at_quality(photo, hi)
         return hi, default_ssim
 #+END_SRC
+
+不过这篇 [[https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/][文章]] 把dynamic quality发挥得更加极致.
 
 -----
 *Changes to JPEG Encoder*
