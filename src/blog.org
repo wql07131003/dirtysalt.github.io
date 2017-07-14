@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201707 [[file:./blogs/making-photos-smaller.org][Making Photos Smaller Without Quality Loss]]
 - 201707 [[file:./blogs/proxy-on-http-streaming.org][HTTP流媒体的代理实现]]
 - 201707 [[file:./blogs/ssh-permission-denied.org][SSH Permission Denied(Public Key)]]
 - 201706 [[file:./blogs/the-evolution-of-code-deploys-at-reddit.org][The Evolution of Code Deploys at Reddit]]
