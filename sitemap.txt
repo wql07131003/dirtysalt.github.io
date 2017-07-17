@@ -474,6 +474,7 @@ http://dirtysalt.github.io/blogs/mac-talk.html
 http://dirtysalt.github.io/blogs/made-in-america.html
 http://dirtysalt.github.io/blogs/majority-of-silent-people.html
 http://dirtysalt.github.io/blogs/making-money-along-the-way.html
+http://dirtysalt.github.io/blogs/making-photos-smaller.html
 http://dirtysalt.github.io/blogs/meeting-dyq.html
 http://dirtysalt.github.io/blogs/mobile-foreign-business.html
 http://dirtysalt.github.io/blogs/modern-operating-systems.html
@@ -531,6 +532,7 @@ http://dirtysalt.github.io/blogs/purchase-on-rapidssl.html
 http://dirtysalt.github.io/blogs/python-gzip-input-stream-impl.html
 http://dirtysalt.github.io/blogs/python-universal-feed-parser.html
 http://dirtysalt.github.io/blogs/real-life-of-startup-with-baby.html
+http://dirtysalt.github.io/blogs/reducing-image-file-size-at-esty.html
 http://dirtysalt.github.io/blogs/refactoring-improving-the-design-of-existing-code.html
 http://dirtysalt.github.io/blogs/religulous.html
 http://dirtysalt.github.io/blogs/reminiscences-of-stock-broker.html
