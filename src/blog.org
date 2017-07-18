@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201707 [[file:./blogs/what-you-can-do-and-what-you-should-do.org][能做什么和该做什么]]
 - 201707 [[file:./blogs/reducing-image-file-size-at-esty.org][Reducing Image File Size at Etsy]]
 - 201707 [[file:./blogs/making-photos-smaller.org][Making Photos Smaller Without Quality Loss]]
 - 201707 [[file:./blogs/proxy-on-http-streaming.org][HTTP流媒体的代理实现]]
