@@ -357,3 +357,5 @@
 - [[file:./blogs/a-chronicle-of-tencent.org][腾讯传]] by 吴晓波
 - [[file:blogs/so-good-they-can-not-ignore-you.org][优秀到不能被忽视(So Good they can not ignore you)]] by Cal Newport
 - [[file:./blogs/made-in-america.org][富甲美国(Made in America)]] by Sam Walton
+- [[file:blogs/the-economist.org][经济学人(The Economist)]] by Schumpeter(熊彼特)
+- [[file:blogs/poor-charlie-almanack.org][穷查理宝典(Poor Charlie's Almanack)]] by Charles Munger(查理芒格)
