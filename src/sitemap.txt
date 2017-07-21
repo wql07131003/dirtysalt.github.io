@@ -553,8 +553,10 @@ http://dirtysalt.github.io/blogs/reversed-bollinger-band.html
 http://dirtysalt.github.io/blogs/rework.html
 http://dirtysalt.github.io/blogs/run-wordpress-in-fast-way.html
 http://dirtysalt.github.io/blogs/running-tutorial.html
+http://dirtysalt.github.io/blogs/scaling-to-billions-on-top-of-digital-ocean.html
 http://dirtysalt.github.io/blogs/scaling-your-api-with-rate-limiters.html
 http://dirtysalt.github.io/blogs/scent-of-a-woman.html
+http://dirtysalt.github.io/blogs/search-at-slack.html
 http://dirtysalt.github.io/blogs/sears-the-baby-book.html
 http://dirtysalt.github.io/blogs/seediq-bale.html
 http://dirtysalt.github.io/blogs/several-waters.html
