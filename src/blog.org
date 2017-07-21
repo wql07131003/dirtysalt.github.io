@@ -1,6 +1,7 @@
 #+title: blog
 
 ** 2017
+- 201707 [[file:./blogs/scaling-to-billions-on-top-of-digital-ocean.org][Scaling to Billions on Top of DigitalOcean]]
 - 201707 [[file:./blogs/search-at-slack.org][Search at Slack]] Slack在搜索排序方面的工作
 - 201707 [[file:./blogs/reading-list-for-college.org][我给中学生的书单]] 摘自得到的《硅谷来信》
 - 201707 [[file:./blogs/why-did-so-many-startups-choose-nosql.org][Why Did So Many Startups Choose NoSQL?]]
