@@ -471,6 +471,7 @@ http://dirtysalt.github.io/blogs/look-for-house-with-xcq.html
 http://dirtysalt.github.io/blogs/looking-for-house-with-xcq.html
 http://dirtysalt.github.io/blogs/mac-root-certification.html
 http://dirtysalt.github.io/blogs/mac-talk.html
+http://dirtysalt.github.io/blogs/macosx-rootless-mode.html
 http://dirtysalt.github.io/blogs/made-in-america.html
 http://dirtysalt.github.io/blogs/majority-of-silent-people.html
 http://dirtysalt.github.io/blogs/making-money-along-the-way.html
@@ -532,6 +533,7 @@ http://dirtysalt.github.io/blogs/purchase-mba.html
 http://dirtysalt.github.io/blogs/purchase-on-rapidssl.html
 http://dirtysalt.github.io/blogs/python-gzip-input-stream-impl.html
 http://dirtysalt.github.io/blogs/python-universal-feed-parser.html
+http://dirtysalt.github.io/blogs/reading-list-for-college.html
 http://dirtysalt.github.io/blogs/real-life-of-startup-with-baby.html
 http://dirtysalt.github.io/blogs/reducing-image-file-size-at-esty.html
 http://dirtysalt.github.io/blogs/refactoring-improving-the-design-of-existing-code.html
@@ -645,6 +647,7 @@ http://dirtysalt.github.io/blogs/what-you-can-do-and-what-you-should-do.html
 http://dirtysalt.github.io/blogs/why-cant-programmers-program.html
 http://dirtysalt.github.io/blogs/why-cd-just-keeps-on-giving.html
 http://dirtysalt.github.io/blogs/why-cn-people-anxious.html
+http://dirtysalt.github.io/blogs/why-did-so-many-startups-choose-nosql.html
 http://dirtysalt.github.io/blogs/why-i-stopped-paying-attention-to-industry-news.html
 http://dirtysalt.github.io/blogs/why-i-work-remotely-hint-it-has-nothing-to-do-with-productivity.html
 http://dirtysalt.github.io/blogs/why-mit-stopped-teaching-SICP.html
