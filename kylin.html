@@ -8,7 +8,7 @@
 <title>kylin</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="dirtysalt" />
-<link rel="shortcut icon" href="http://dirtysalt.info/css/favicon.ico" />
+<link rel="shortcut icon" href="https://dirtysalt.github.io/css/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="./css/site.css" />
 </head>
 <body>
@@ -1029,7 +1029,7 @@ TranBuf.h CTranBufPool是一个内存分配器。对于很多系统来说，合�
 
 <pre class="src src-C++"><span class="org-type">bool</span> <span class="org-function-name">AllocOnce</span>() {
   <span class="org-type">char</span>* <span class="org-variable-name">pBuffer</span> = (<span class="org-type">char</span>*)AlignAlloc(m_nBlockSize, m_nBufferSize);
-  <span class="org-type">Handle</span>* <span class="org-variable-name">pHdl</span> = (<span class="org-type">Handle</span>*)ZeroAlloc(m_nAlloc * <span class="org-keyword">sizeof</span>(Handle));
+  <span class="org-type">Handle</span>* <span class="org-variable-name">pHdl</span> = (<span class="org-type">Handle</span>*)ZeroAlloc(<span class="org-type">m_nAlloc</span> * <span class="org-keyword">sizeof</span>(Handle));
   <span class="org-keyword">if</span> (pBuffer &amp;&amp; pHdl) {
     m_BufferMap.insert(<span class="org-constant">BufferMap</span>::value_type(pBuffer, pHdl)); <span class="org-comment-delimiter">// </span><span class="org-comment">&#35760;&#24405;&#19979;&#36825;&#20010;&#36830;&#32493;&#22359;&#30340;&#20869;&#23384;&#22320;&#22336;&#21644;Handle&#22320;&#22336;.</span>
     <span class="org-comment-delimiter">// </span><span class="org-comment">&#22312;Destroy&#26102;&#20505;&#26377;&#29992;.</span>
@@ -1175,7 +1175,7 @@ Destroy是将AllocOnce分配的内存和Handle全部回收。因为得到了所�
             <span class="org-type">int</span> <span class="org-variable-name">n1</span> = m_nMaxBuffers - m_nBuffers + n;
             <span class="org-type">int</span> <span class="org-variable-name">n2</span> = m_nMaxBuffers - m_nWaterMarks[nPriority];
             TRACE0(<span class="org-string">"Warning: available tran buf (#%d) touches watermark(#%d, %.f%%)\n"</span>,
-                   n1, n2, (<span class="org-type">double</span>)(n1 * 100) / m_nMaxBuffers);
+                   n1, n2, (<span class="org-type">double</span>)(<span class="org-type">n1</span> * 100) / m_nMaxBuffers);
             last = now;
           }
         }
@@ -1787,7 +1787,7 @@ network IO app的。通过全局的BufHandlePool对象来分配内存。
 {
     DECLARE_SINGLETON(<span class="org-type">CExecMan</span>) <span class="org-comment-delimiter">// </span><span class="org-comment">&#21333;&#20363;&#27169;&#24335;</span>
     <span class="org-keyword">public</span>:
-    ~CExecMan();
+    ~<span class="org-function-name">CExecMan</span>();
     <span class="org-type">APF_ERROR</span> <span class="org-function-name">Start</span>(<span class="org-type">int</span> <span class="org-variable-name">nWorkers</span>, <span class="org-type">THREAD_INIT_PROC</span> <span class="org-variable-name">fInit</span>, <span class="org-type">uint32</span> <span class="org-variable-name">nTimerPrecision</span>);
     <span class="org-type">void</span> <span class="org-function-name">Stop</span>(<span class="org-type">bool</span> <span class="org-variable-name">bWait</span>);
 
@@ -2158,7 +2158,7 @@ DelayExec里面的逻辑会根据定时时间来判断如何实现，如果定�
 {
     DECLARE_SINGLETON(<span class="org-type">CDiskMan</span>) <span class="org-comment-delimiter">// </span><span class="org-comment">&#21333;&#20363;&#27169;&#24335;</span>
     <span class="org-keyword">public</span>:
-    ~CDiskMan();
+    ~<span class="org-function-name">CDiskMan</span>();
 
     <span class="org-type">APF_ERROR</span> <span class="org-function-name">Start</span>(<span class="org-type">int</span> <span class="org-variable-name">nDisks</span>, <span class="org-type">THREAD_INIT_PROC</span> <span class="org-variable-name">fInit</span>);
     <span class="org-type">void</span> <span class="org-function-name">Stop</span>();
@@ -2387,7 +2387,7 @@ DiskOp(a,b,c)其中a表示对应的系统调用叫什么名字，b表示这个Jo
     <span class="org-type">DiskContext</span> <span class="org-variable-name">disk_ctx</span>;
     <span class="org-type">XDiskRequest</span> <span class="org-variable-name">disk_req</span>;
     <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):
-            id(id_){
+            <span class="org-function-name">id</span>(id_){
         <span class="org-comment-delimiter">// </span><span class="org-comment">make filename.</span>
         <span class="org-type">char</span> <span class="org-variable-name">tmp</span>[128];
         snprintf(tmp,<span class="org-keyword">sizeof</span>(tmp),<span class="org-string">"%s_%d"</span>,fname_prefix,id);
@@ -2553,7 +2553,7 @@ DiskOp(a,b,c)其中a表示对应的系统调用叫什么名字，b表示这个Jo
 {
     DECLARE_SINGLETON(<span class="org-type">CNetworkMan</span>) <span class="org-comment-delimiter">// </span><span class="org-comment">&#21333;&#20363;</span>
     <span class="org-keyword">public</span>:
-    ~CNetworkMan();
+    ~<span class="org-function-name">CNetworkMan</span>();
 
     <span class="org-type">APF_ERROR</span> <span class="org-function-name">Start</span>(<span class="org-type">int</span> <span class="org-variable-name">nWorkers</span>, <span class="org-type">THREAD_INIT_PROC</span> <span class="org-variable-name">fInit</span>);
     <span class="org-type">void</span> <span class="org-function-name">Stop</span>();
@@ -3989,7 +3989,7 @@ echo这个就是客户端连接上之后不断发送1K数据而服务器就直�
     <span class="org-type">int</span> <span class="org-variable-name">id</span>;
     <span class="org-type">AsyncContext</span> <span class="org-variable-name">delay_ctx</span>;
     <span class="org-type">char</span> <span class="org-variable-name">packet</span>[packet_size];
-    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):id(id_){
+    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):<span class="org-function-name">id</span>(id_){
         AddRef();
         InitAsyncContext(&amp;delay_ctx);
         memset(packet,0xcc,packet_size);
@@ -4134,7 +4134,7 @@ echo这个就是客户端连接上之后不断发送1K数据而服务器就直�
     <span class="org-type">int</span> <span class="org-variable-name">id</span>;
     <span class="org-type">AsyncContext</span> <span class="org-variable-name">delay_ctx</span>;
     <span class="org-type">char</span> <span class="org-variable-name">packet</span>[packet_size];
-    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):id(id_){
+    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):<span class="org-function-name">id</span>(id_){
         AddRef();
         InitAsyncContext(&amp;delay_ctx);
         memset(packet,0xcc,packet_size);
@@ -4274,7 +4274,7 @@ file-request希望可以结合ExecMan,NetworkMan和DiskMan三个Manager写一个
     };
     <span class="org-type">status_t</span> <span class="org-variable-name">status</span>;
     <span class="org-type">int</span> <span class="org-variable-name">read_body_len</span>;
-    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):id(id_){
+    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):<span class="org-function-name">id</span>(id_){
         AddRef();
         InitAsyncContext(&amp;delay_ctx);
     }
@@ -4445,7 +4445,7 @@ file-request希望可以结合ExecMan,NetworkMan和DiskMan三个Manager写一个
     <span class="org-type">int</span> <span class="org-variable-name">read_body_len</span>;
     <span class="org-type">char</span>* <span class="org-variable-name">reply</span>;
     <span class="org-type">int</span> <span class="org-variable-name">reply_len</span>;
-    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):id(id_){
+    <span class="org-function-name">XAsyncClient</span>(<span class="org-type">int</span> <span class="org-variable-name">id_</span>):<span class="org-function-name">id</span>(id_){
         AddRef();
         InitAsyncContext(&amp;delay_ctx);
     }
