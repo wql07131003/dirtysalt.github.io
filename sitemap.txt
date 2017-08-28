@@ -604,6 +604,7 @@ http://dirtysalt.github.io/blogs/the-economist.html
 http://dirtysalt.github.io/blogs/the-effective-engineer-by-edmond-lau.html
 http://dirtysalt.github.io/blogs/the-evolution-of-code-deploys-at-reddit.html
 http://dirtysalt.github.io/blogs/the-facebook-effect.html
+http://dirtysalt.github.io/blogs/the-feynman-technique-the-best-way-to-learn-anything.html
 http://dirtysalt.github.io/blogs/the-future-of-programming.html
 http://dirtysalt.github.io/blogs/the-golden-circle.html
 http://dirtysalt.github.io/blogs/the-great-game.html
